@@ -1,3 +1,11 @@
+# =========================================================
+# Proyecto: Observatorio del Cambio Religioso
+# Script: 01_limpieza_cep.R
+# Objetivo: importar y limpiar base Bicentenario consolidada
+# =========================================================
+
+
+
 library(dplyr)
 
 cep_raw <- readRDS("datos/raw/CEP_consolidada.rds")
