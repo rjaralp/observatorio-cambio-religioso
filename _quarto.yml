@@ -6,12 +6,19 @@ website:
   title: "Observatorio del Cambio Religioso en Chile"
   navbar:
     left:
-      - href: index.qmd
-        text: Inicio
-      - href: about.qmd
-        text: Proyecto
+      - text: Inicio
+        href: index.qmd
+      - text: Análisis
+        href: analisis.qmd
+      - text: Datos
+        href: datos.qmd
+      - text: Papers
+        href: papers.qmd
+      - text: Sobre el Proyecto
+        href: about.qmd
 
 format:
   html:
     theme: cosmo
-    toc: false
+    css: styles.css
+    toc: true

@@ -1,0 +1,9 @@
+---
+title: "Datos"
+---
+
+Aquí se publicarán los datos sobre identificación religiosa en Chile.
+
+Próximamente:
+
+- Links a bases de datos: Bicentenario, CEP, ELSOC, etc. 

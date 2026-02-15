@@ -1,0 +1,13 @@
+---
+title: "Análisis"
+---
+
+Aquí se publicarán los análisis cuantitativos sobre identificación religiosa en Chile.
+
+Próximamente:
+
+- Series históricas 
+
+- Análisis generacional
+
+- Visualizaciones interactivas
