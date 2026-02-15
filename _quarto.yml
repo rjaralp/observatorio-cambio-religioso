@@ -1,0 +1,17 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Observatorio del Cambio Religioso en Chile"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Inicio
+      - href: about.qmd
+        text: Proyecto
+
+format:
+  html:
+    theme: cosmo
+    toc: false
