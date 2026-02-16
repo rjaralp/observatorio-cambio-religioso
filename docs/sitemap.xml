@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://rjaralp.github.io/observatorio-cambio-religioso/papers/papers.html</loc>
+    <lastmod>2026-02-15T23:04:03.890Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rjaralp.github.io/observatorio-cambio-religioso/datos/datos.html</loc>
+    <lastmod>2026-02-15T23:02:34.769Z</lastmod>
+  </url>
+  <url>
     <loc>https://rjaralp.github.io/observatorio-cambio-religioso/about.html</loc>
     <lastmod>2026-02-16T02:58:27.227Z</lastmod>
   </url>
@@ -11,13 +19,5 @@
   <url>
     <loc>https://rjaralp.github.io/observatorio-cambio-religioso/index.html</loc>
     <lastmod>2026-02-15T22:19:24.453Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rjaralp.github.io/observatorio-cambio-religioso/datos/datos.html</loc>
-    <lastmod>2026-02-15T23:02:34.769Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rjaralp.github.io/observatorio-cambio-religioso/papers/papers.html</loc>
-    <lastmod>2026-02-15T23:04:03.890Z</lastmod>
   </url>
 </urlset>
