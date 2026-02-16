@@ -1,9 +1,5 @@
 ---
-title: "About"
+title: "Sobre el proyecto"
 ---
 
-About this site
-
-```{r}
-1 + 1
-```
+El presente sitio...
