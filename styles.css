@@ -1,1 +1,37 @@
-/* css styles */
+/* Tipografía */
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: white;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, serif;
+  color: #7b0000;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: #7b0000;
+}
+
+.navbar a {
+  color: white !important;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #f2f2f2 !important;
+}
+
+/* Links */
+
+a {
+  color: #7b0000;
+}
+
+a:hover {
+  color: #4a0000;
+}
+
