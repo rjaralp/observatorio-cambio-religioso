@@ -4,16 +4,17 @@ project:
 
 website:
   title: "Observatorio del Cambio Religioso en Chile"
+  site-url: "https://rjaralp.github.io/observatorio-cambio-religioso/"
   navbar:
     left:
       - text: Inicio
         href: index.qmd
       - text: Análisis
-        href: analisis.qmd
+        href: analisis/analisis.qmd
       - text: Datos
-        href: datos.qmd
+        href: datos/datos.qmd
       - text: Papers
-        href: papers.qmd
+        href: papers/papers.qmd
       - text: Sobre el Proyecto
         href: about.qmd
 
