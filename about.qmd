@@ -2,4 +2,70 @@
 title: "Sobre el proyecto"
 ---
 
-El presente sitio...
+## ¿Qué es el Observatorio?
+
+El Observatorio del Cambio Religioso en Chile es una plataforma académica dedicada al análisis sistemático de las transformaciones religiosas en el país desde 1990 hasta la actualidad.
+
+Su propósito es ofrecer información clara, rigurosa y accesible sobre tendencias en identificación religiosa, afiliación, práctica y cambio generacional, integrando datos cuantitativos, análisis longitudinal y documentación metodológica.
+
+El Observatorio busca convertirse en una referencia pública para investigadores, periodistas, estudiantes y tomadores de decisión interesados en comprender la evolución religiosa en Chile.
+
+---
+
+## Objetivos
+
+- Sistematizar y visualizar series históricas sobre identificación religiosa en Chile.
+
+- Analizar procesos de secularización, desafilación y crecimiento evangélico.
+
+- Examinar dinámicas generacionales (Edad–Período–Cohorte).
+
+- Facilitar el acceso a bases de datos, documentación y código reproducible.
+
+- Contribuir al debate académico sobre cambio cultural y religión.
+
+---
+
+## Enfoque metodológico
+
+El Observatorio adopta un enfoque cuantitativo, apoyado en el análisis de encuestas longitudinales y comparables en el tiempo.
+
+Las principales fuentes incluyen:
+
+- Encuesta CEP (1994–2024)
+
+- Encuesta Bicentenario UC
+
+- ELSOC (COES)
+
+Se prioriza la transparencia metodológica, la replicabilidad y la claridad en la presentación de resultados.
+
+---
+
+## Alcance
+
+El proyecto se concentra en el caso chileno, pero dialoga con la literatura comparada sobre cambio religioso, secularización, cultura política y transformación de valores.
+
+No constituye una institución formal ni un centro financiado, sino una iniciativa académica independiente.
+
+---
+
+## Dirección
+
+Ramón Jara López  
+
+Sociólogo y Magíster en Sociología UC  
+
+Investigador interesado en cambio cultural, religión y política, con formación en sociología cuantitativa y análisis longitudinal.
+
+---
+
+## Principios
+
+- Rigor empírico
+
+- Transparencia metodológica
+
+- Claridad interpretativa
+
+- Compromiso con el debate académico informado
