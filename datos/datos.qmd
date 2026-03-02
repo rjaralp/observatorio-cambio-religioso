@@ -12,7 +12,7 @@ El Observatorio del Cambio Religioso en Chile se basa en encuestas de opinión p
 
 Fuente: Centro de Estudios Públicos (CEP)
 
-🔗 [Sitio oficial CEP](https://www.cepchile.cl/opinion-publica/encuesta-cep/)
+🔗 [Sitio oficial CEP]<https://www.cepchile.cl/opinion-publica/encuesta-cep/>
 
 La Encuesta CEP constituye la serie más extensa y consistente sobre identificación religiosa en Chile desde 1990. Permite analizar tendencias de largo plazo en afiliación, práctica y confianza institucional.
 
@@ -30,7 +30,7 @@ La Encuesta CEP constituye la serie más extensa y consistente sobre identificac
 
 Fuente: Pontificia Universidad Católica de Chile
 
-🔗[Sitio oficial Bicentenario UC](https://datosinvestigacion.repositorio.uc.cl/dataverse/DIUC?q=encuesta%20bicentenario)
+🔗[Sitio oficial Bicentenario UC]<https://datosinvestigacion.repositorio.uc.cl/dataverse/DIUC?q=encuesta%20bicentenario>
 
 La Encuesta Bicentenario ofrece información detallada sobre valores, religión y cultura política desde 2006.
 
@@ -48,7 +48,7 @@ La Encuesta Bicentenario ofrece información detallada sobre valores, religión 
 
 Fuente: COES – Centro de Estudios de Conflicto y Cohesión Social
 
-🔗[Sitio oficial ELSOC](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/LD4BPH)
+🔗[Sitio oficial ELSOC]<https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/LD4BPH>
 
 ELSOC es un panel longitudinal que permite estudiar trayectorias individuales y cambios en el tiempo.
 
