@@ -75,3 +75,68 @@ Las “otras religiones” permanecen relativamente marginales y estables, lo qu
 
 En conjunto, el patrón observado sugiere que el cambio religioso chileno no se explica principalmente como una recomposición entre denominaciones cristianas, sino como un proceso de erosión de la identificación tradicional y expansión de la no afiliación. Más que un simple pluralismo, los datos apuntan hacia una reconfiguración del campo religioso donde la pérdida de centralidad institucional —especialmente del catolicismo— constituye el fenómeno dominante.
 
+
+
+
+
+**Encuesta Bicentenario UC**
+
+Como indican en su página web (<https://encuestabicentenario.uc.cl/quienes-somos/>) la Encuesta Bicentenario es un proyecto de la Pontificia Universidad Católica de Chile, cuyo propósito es obtener información altamente confiable y sostenida en el tiempo acerca del estado de la sociedad chilena en tópicos relevantes y de alto impacto que permitan develar sus rasgos fundamentales.
+
+Este estudio nació en el 2006 con la finalidad de conocer lo que pensaban los chilenos de cara al Bicentenario. Desde entonces se ha mantenido año tras año, lo que ha permitido contar con información estadística relevante por más de una década.
+
+Para la presente página se trabaja con una versión no oficial que juntó las bases de todos los años. Para poder acceder a ella se puede desacargar desde el repositorio de la página en el perfil de GitHub. 
+
+
+```{r, echo=FALSE, include=FALSE, warning=FALSE, message=FALSE, results='hide'}
+library(dplyr)
+library(ggplot2)
+library(scales)
+
+setwd("C:/Users/Dell/Desktop/observatorio-cambio-religioso")
+
+bic <- readRDS("C:/Users/Dell/Desktop/observatorio-cambio-religioso/datos/processed/bicentenario_clean.rds")
+
+religion_ts_bic <- bic %>%
+  filter(!is.na(religion_cat), !is.na(ano)) %>%
+  count(ano, religion_cat) %>%
+  group_by(ano) %>%
+  mutate(prop = n / sum(n)) %>%
+  ungroup()
+
+religion_ts_bic
+
+```
+
+
+```{r, echo=FALSE}
+ggplot(religion_ts_bic, aes(x = ano, y = prop, color = religion_cat)) +
+  geom_line(linewidth = 1.2) +
+  scale_y_continuous(labels = percent) +
+  labs(
+    title = "Cambio en la Identificación Religiosa en Chile (Encuesta Bicentenario)",
+    x = "Año",
+    y = "Porcentaje",
+    color = "Religión"
+  ) +
+  theme_minimal()
+```
+
+El gráfico muestra la evolución de la identificación religiosa en Chile a partir de las distintas olas de la Encuesta Bicentenario, permitiendo observar los cambios ocurridos desde mediados de los años 2000 hasta comienzos de la década de 2020.
+
+En primer lugar, se aprecia una disminución sostenida de la identificación católica. A mediados de los años 2000, cerca de dos tercios de la población se declaraban católicos. Durante la década siguiente el descenso es gradual, con fluctuaciones menores pero una tendencia claramente negativa. A partir de fines de la década de 2010 la caída se vuelve más pronunciada, situándose en torno al 45–50% en los últimos años observados. El patrón general confirma una pérdida persistente de centralidad del catolicismo en la estructura religiosa del país.
+
+En segundo lugar, la identificación evangélica muestra una notable estabilidad en el tiempo. Desde el inicio del período analizado, la proporción de personas que se declaran evangélicas se mantiene en torno al 15–18%, con variaciones relativamente acotadas entre años. Al igual que en otras fuentes de datos, esto sugiere que el debilitamiento del catolicismo no se traduce necesariamente en un crecimiento equivalente del mundo evangélico, cuyo tamaño parece mantenerse relativamente constante en el agregado nacional.
+
+El cambio más significativo se observa en el grupo que declara no tener religión. A mediados de los años 2000 esta categoría se situaba en torno al 10–12% de la población, pero comienza a aumentar de manera sostenida durante la década siguiente. El incremento se vuelve particularmente visible a partir de la segunda mitad de la década de 2010, alcanzando niveles cercanos o superiores al 30% en los últimos años del período. De este modo, la no afiliación religiosa pasa a constituirse en el segundo grupo más numeroso después del catolicismo.
+
+Por su parte, las “otras religiones” mantienen una presencia relativamente baja y estable a lo largo del tiempo, generalmente por debajo del 5% de la población. Esto indica que el cambio religioso en Chile no está asociado principalmente a una diversificación significativa hacia tradiciones religiosas minoritarias.
+
+En conjunto, el patrón observado es consistente con el identificado en otras encuestas nacionales: el cambio religioso en Chile se caracteriza principalmente por la disminución de la identificación católica y el crecimiento sostenido de la no afiliación. Más que un proceso de recomposición entre denominaciones cristianas, los datos sugieren una transformación más profunda del campo religioso, marcada por la pérdida de centralidad de las instituciones tradicionales y la expansión de identidades religiosas más débiles o inexistentes.
+
+
+
+**ELSOC (Estudio Longitudinal Social de Chile, COES)**
+
+
+
