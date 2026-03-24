@@ -1,14 +1,14 @@
 ---
-title: "observatorio-cambio-religioso"
----
-
----
 title: "Observatorio del Cambio Religioso en Chile"
 ---
 
+<div class="logo-home">
+  <img src="images/logo.png" alt="Logo OCRC" width="220">
+</div>
+
 Plataforma abierta de análisis y visualización de datos sobre identificación religiosa, afiliación y transformación cultural en Chile.
 
-Este proyecto reúne indicadores, series temporales, bases de datos y recursos para investigación académica y periodística.
+Este proyecto reúne indicadores, series temporales, bases de datos y recursos orientados a la investigación académica, el análisis público y el trabajo periodístico.
 
 ## Líneas de trabajo
 
@@ -21,8 +21,9 @@ Este proyecto reúne indicadores, series temporales, bases de datos y recursos p
 
 ### Dirección
 
-Ramón Jara López  
-Sociólogo y Mg. en Sociología PUC· Investigador  
+**Ramón Jara López**  
+Sociólogo y Mg. en Sociología, Pontificia Universidad Católica de Chile  
+Investigador
 
 ---
 

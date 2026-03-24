@@ -85,3 +85,14 @@ h3 + p {
   border-left: 4px solid #7b0000;
   border-radius: 4px;
 }
+
+.logo-home {
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.logo-home img {
+  max-width: 220px;
+  height: auto;
+}
