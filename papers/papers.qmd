@@ -24,3 +24,43 @@ Finalmente, se observa un aumento significativo de personas sin afiliación reli
 El artículo concluye que el cambio religioso en Chile no puede ser entendido únicamente como secularización, sino como una recomposición del campo religioso, caracterizada por la diversificación y la desinstitucionalización de las creencias.
 
 ---
+
+## Secularization and the Fall of Catholicism in Chile: Cohort and Period Effects on Religious Disaffiliation
+
+**Lili Almási-Szabó**
+
+🔗 [Ver artículo](https://link.springer.com/article/10.1007/s41603-024-00265-6)
+
+---
+
+### Resumen 
+
+América Latina ha experimentado en las últimas décadas un declive sostenido en la práctica y la identificación con el catolicismo. En este contexto, Chile destaca por el aumento de personas que se han desvinculado de la Iglesia, sin que ello implique necesariamente una reafilación hacia otras tradiciones religiosas.
+
+El artículo aborda este proceso desde la teoría de la secularización, proponiendo que los cambios sociales y culturales del país han ido erosionando la centralidad histórica del catolicismo. En particular, plantea que estas transformaciones estructurales se traducen en modificaciones en las identidades religiosas de la población.
+
+El objetivo del estudio es explicar cómo y por qué se está produciendo una desvinculación masiva del catolicismo en el Chile contemporáneo. Para ello, utiliza datos agrupados de la Encuesta Bicentenario (2006–2023, N = 33.607) y estima modelos de regresión lineal, analizando los efectos de edad, período y cohorte, con especial énfasis en estos dos últimos.
+
+Los resultados muestran que el efecto de período —marcado en gran medida por los escándalos de abuso sexual en la Iglesia Católica— desempeña un rol central en la caída de la identificación católica. Asimismo, se identifican efectos de cohorte relevantes, particularmente entre las generaciones posteriores al Concilio Vaticano II.
+
+Finalmente, el estudio destaca la importancia de la transmisión religiosa como mecanismo clave para la reproducción de la afiliación entre generaciones, sugiriendo que su debilitamiento contribuye de manera significativa al proceso de descatolicización.
+
+--- 
+
+## Continuity and Change of Religious Affiliation in Contexts of Rapid Transformations: The Chilean 1938–1963 Generation
+
+**Maureen Neckelmann y Andrés Biehl**
+
+🔗 [Ver artículo](https://link.springer.com/article/10.1007/s41603-024-00271-8)
+
+--
+Este artículo examina las trayectorias religiosas de individuos nacidos entre 1938 y 1963 en Santiago de Chile, una generación que vivió profundas transformaciones sociales y políticas. A partir de datos de encuesta y un calendario de historia de vida aplicado a una muestra representativa de 792 personas, el estudio combina estadística descriptiva, análisis de secuencias y modelos logit multivariados para identificar los factores que explican la persistencia y el cambio religioso a lo largo del ciclo de vida.
+
+Chile constituye un caso particularmente relevante para el análisis del crecimiento evangélico y pentecostal, dado el rápido desarrollo de estos movimientos durante las décadas de 1960 y 1970. En este contexto, el artículo analiza el papel de la modernización económica y de la transmisión religiosa familiar en la configuración de la identificación religiosa.
+
+Los resultados muestran un bajo nivel de pluralismo religioso en el marco de una alta estabilidad: las identidades religiosas formadas en la juventud tienden a mantenerse relativamente constantes, aunque se observan algunas conversiones desde el catolicismo hacia el evangelismo en etapas posteriores de la vida.
+
+Estos hallazgos cuestionan dos supuestos frecuentes en la literatura: por un lado, que la identidad religiosa se fija exclusivamente en la infancia; por otro, que todas las cohortes en Chile han experimentado un proceso sostenido de secularización en las últimas décadas.
+
+---
+
