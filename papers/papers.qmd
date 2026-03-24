@@ -54,6 +54,8 @@ Finalmente, el estudio destaca la importancia de la transmisión religiosa como 
 🔗 [Ver artículo](https://link.springer.com/article/10.1007/s41603-024-00271-8)
 
 --
+### Resumen 
+
 Este artículo examina las trayectorias religiosas de individuos nacidos entre 1938 y 1963 en Santiago de Chile, una generación que vivió profundas transformaciones sociales y políticas. A partir de datos de encuesta y un calendario de historia de vida aplicado a una muestra representativa de 792 personas, el estudio combina estadística descriptiva, análisis de secuencias y modelos logit multivariados para identificar los factores que explican la persistencia y el cambio religioso a lo largo del ciclo de vida.
 
 Chile constituye un caso particularmente relevante para el análisis del crecimiento evangélico y pentecostal, dado el rápido desarrollo de estos movimientos durante las décadas de 1960 y 1970. En este contexto, el artículo analiza el papel de la modernización económica y de la transmisión religiosa familiar en la configuración de la identificación religiosa.
