@@ -13,3 +13,5 @@ _site/
 Thumbs.db
 
 /.quarto/
+
+datos/raw/ELSOC_Long_2016_2023.dta
