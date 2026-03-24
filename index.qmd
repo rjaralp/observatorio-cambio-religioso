@@ -2,8 +2,8 @@
 title: "Observatorio del Cambio Religioso en Chile"
 ---
 
-<div class="logo-home">
-  <img src="images/logo.png" alt="Logo OCRC" width="220">
+<div style="text-align: center;">
+  <img src="images/logo.png" alt="Logo OCRC" width="180">
 </div>
 
 Plataforma abierta de análisis y visualización de datos sobre identificación religiosa, afiliación y transformación cultural en Chile.
