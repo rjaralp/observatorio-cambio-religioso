@@ -33,6 +33,7 @@ La Encuesta CEP es la serie de opinión pública más extensa disponible en Chil
 En este primer gráfico se presenta la evolución de la identificación religiosa declarada por los encuestados.
 
 ![Cambio en la identificación religiosa por cohorte (CEP)](../images/Cep1.png){fig-align="center" width="90%"}
+
 *Fuente: Encuesta CEP. Observatorio del Cambio Religioso en Chile (OCRC).*
 
 El gráfico evidencia una transformación profunda pero gradual en la estructura de identificación religiosa en Chile entre mediados de los años noventa y comienzos de la década de 2020.
@@ -79,6 +80,7 @@ Para la presente página se trabaja con una versión no oficial que juntó las b
 
 
 ![Cambio en la identificación religiosa por cohorte (CEP)](../images/Bic1.png){fig-align="center" width="90%"}
+
 *Fuente: Encuesta Bicentenario. Observatorio del Cambio Religioso en Chile (OCRC).*
 
 El gráfico muestra la evolución de la identificación religiosa en Chile a partir de las distintas olas de la Encuesta Bicentenario, permitiendo observar los cambios ocurridos desde mediados de los años 2000 hasta comienzos de la década de 2020.
@@ -101,6 +103,7 @@ El Estudio Longitudinal Social de Chile (ELSOC) fue una encuesta realizada de fo
 
 
 ![Cambio en la identificación religiosa por cohorte (CEP)](../images/elsoc1.png){fig-align="center" width="90%"}
+
 *Fuente: Encuesta ELSOC. Observatorio del Cambio Religioso en Chile (OCRC).*
 
 El gráfico basado en ELSOC permite observar la evolución de la identificación religiosa en Chile a partir de un diseño longitudinal, siguiendo a los mismos individuos a lo largo de siete olas. Esto introduce una diferencia fundamental respecto a encuestas transversales: los cambios observados reflejan, en mayor medida, transformaciones reales en las trayectorias individuales y no solo reemplazos generacionales.
