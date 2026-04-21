@@ -29,40 +29,11 @@ En el futuro se incorporarán análisis comparados con otros países de América
 
 La Encuesta CEP es la serie de opinión pública más extensa disponible en Chile, con levantamientos periódicos desde la década de 1990. Su continuidad temporal permite observar con mayor precisión las transformaciones en la estructura religiosa del país
 
-```{r, echo=FALSE, include=FALSE, warning=FALSE, message=FALSE, results='hide'}
-library(dplyr)
-library(ggplot2)
-library(scales)
-
-setwd("C:/Users/Dell/Desktop/observatorio-cambio-religioso")
-
-cep <- readRDS("datos/processed/cep_clean.rds")
-
-religion_ts <- cep %>%
-  filter(!is.na(religion_cat), !is.na(encuesta_a)) %>%
-  count(encuesta_a, religion_cat) %>%
-  group_by(encuesta_a) %>%
-  mutate(prop = n / sum(n)) %>%
-  ungroup()
-
-religion_ts
-```
 
 En este primer gráfico se presenta la evolución de la identificación religiosa declarada por los encuestados.
 
-```{r, echo=FALSE}
-ggplot(religion_ts, aes(x = encuesta_a, y = prop, color = religion_cat)) +
-  geom_line(linewidth = 1.2) +
-  scale_y_continuous(labels = percent) +
-  labs(
-    title = "Cambio en la Identificación Religiosa en Chile (CEP)",
-    x = "Año (encuesta_a)",
-    y = "Porcentaje",
-    color = "Religión",
-    caption = "Encuesta CEP. Observatorio del Cambio Religioso en Chile (OCRC)."
-  ) +
-  theme_minimal()
-```
+![Cambio en la identificación religiosa por cohorte (CEP)](../images/Cep1.png){fig-align="center" width="90%"}
+*Fuente: Encuesta CEP. Observatorio del Cambio Religioso en Chile (OCRC).*
 
 El gráfico evidencia una transformación profunda pero gradual en la estructura de identificación religiosa en Chile entre mediados de los años noventa y comienzos de la década de 2020.
 
@@ -79,6 +50,24 @@ En conjunto, el patrón observado sugiere que el cambio religioso chileno no se 
 
 ---
 
+El cambio en la identificación religiosa en Chile no es homogéneo, sino con comportamiento particular marcado por la generación. Como se observa en la figura que se encuentra debajo, las distintas cohortes presentan trayectorias diferenciadas tanto en niveles como en ritmos de cambio.
+
+En primer lugar, las cohortes más antiguas (Silenciosa + Boomers) muestran altos niveles de identificación católica a lo largo de todo el período, con una disminución moderada en el tiempo. En este grupo, la afiliación religiosa se mantiene relativamente estable y la proporción de personas sin religión crece de forma gradual, pero sin alcanzar niveles predominantes.
+
+![Cambio en la identificación religiosa por cohorte (CEP)](../images/cep_cohortes_religion.png){fig-align="center" width="90%"}
+
+*Fuente: Encuesta CEP. Observatorio del Cambio Religioso en Chile (OCRC).*
+
+
+En contraste, las generaciones más jóvenes presentan un patrón distinto. Tanto en Millennials como en la Generación Z se observa un descenso más pronunciado del catolicismo, acompañado de un aumento sostenido de la población sin afiliación religiosa. Este proceso es especialmente visible en la Generación Z, donde en los años más recientes la proporción de personas sin religión iguala o incluso supera a la de católicos.
+
+La Generación X ocupa una posición intermedia: si bien presenta niveles iniciales altos de identificación católica, muestra una tendencia clara de declive, junto con un aumento progresivo de la no afiliación. Esto sugiere que el cambio religioso no ocurre de manera abrupta, sino que se despliega gradualmente a través de las cohortes.
+
+Por su parte, la identificación evangélica se mantiene relativamente estable en todas las generaciones, con variaciones menores en el tiempo. Esto indica que el crecimiento evangélico, observado en décadas anteriores, no sigue una lógica de expansión continua en las cohortes más recientes, sino más bien de estabilización.
+
+En conjunto, estos resultados sugieren que el proceso de cambio religioso en Chile se explica en gran medida por un reemplazo generacional. Las nuevas cohortes no solo presentan menores niveles de identificación católica desde el inicio, sino que además muestran una mayor propensión a la no afiliación religiosa. De este modo, el declive agregado del catolicismo no responde únicamente a cambios individuales a lo largo del ciclo de vida, sino a diferencias estructurales entre generaciones.
+
+---
 
 **Encuesta Bicentenario UC**
 
@@ -89,40 +78,8 @@ Este estudio nació en el 2006 con la finalidad de conocer lo que pensaban los c
 Para la presente página se trabaja con una versión no oficial que juntó las bases de todos los años. Para poder acceder a ella se puede desacargar desde el repositorio de la página en el perfil de GitHub. 
 
 
-```{r, echo=FALSE, include=FALSE, warning=FALSE, message=FALSE, results='hide'}
-library(dplyr)
-library(ggplot2)
-library(scales)
-
-setwd("C:/Users/Dell/Desktop/observatorio-cambio-religioso")
-
-bic <- readRDS("C:/Users/Dell/Desktop/observatorio-cambio-religioso/datos/processed/bicentenario_clean.rds")
-
-religion_ts_bic <- bic %>%
-  filter(!is.na(religion_cat), !is.na(ano)) %>%
-  count(ano, religion_cat) %>%
-  group_by(ano) %>%
-  mutate(prop = n / sum(n)) %>%
-  ungroup()
-
-religion_ts_bic
-
-```
-
-
-```{r, echo=FALSE}
-ggplot(religion_ts_bic, aes(x = ano, y = prop, color = religion_cat)) +
-  geom_line(linewidth = 1.2) +
-  scale_y_continuous(labels = percent) +
-  labs(
-    title = "Cambio en la Identificación Religiosa en Chile (Encuesta Bicentenario)",
-    x = "Año",
-    y = "Porcentaje",
-    color = "Religión",
-    caption = "Encuesta Bicentneario. Observatorio del Cambio Religioso en Chile (OCRC)."
-  ) +
-  theme_minimal()
-```
+![Cambio en la identificación religiosa por cohorte (CEP)](../images/Bic1.png){fig-align="center" width="90%"}
+*Fuente: Encuesta Bicentenario. Observatorio del Cambio Religioso en Chile (OCRC).*
 
 El gráfico muestra la evolución de la identificación religiosa en Chile a partir de las distintas olas de la Encuesta Bicentenario, permitiendo observar los cambios ocurridos desde mediados de los años 2000 hasta comienzos de la década de 2020.
 
@@ -143,41 +100,8 @@ En conjunto, el patrón observado es consistente con el identificado en otras en
 El Estudio Longitudinal Social de Chile (ELSOC) fue una encuesta realizada de forma anual a la población urbana chilena desde el 2016 hasta el 2023. Como bien señalan en su página web (<https://conferencias.coes.cl/encuesta-panel/>) el fin de deicha herramienta era evaluar la manera cómo piensan, sienten y se comportan los chilenos en torno a un conjunto de temas referidos al conflicto y la cohesión social en el país.
 
 
-```{r, echo=FALSE, include=FALSE, warning=FALSE, message=FALSE, results='hide'}
-library(dplyr)
-library(ggplot2)
-library(scales)
-
-setwd("C:/Users/Dell/Desktop/observatorio-cambio-religioso")
-
-elsoc <- readRDS("C:/Users/Dell/Desktop/observatorio-cambio-religioso/datos/processed/elsoc_clean.rds")
-
-elsoc_ts <- elsoc %>%
-  filter(!is.na(religion_cat), !is.na(ola)) %>%
-  count(ola, religion_cat) %>%
-  group_by(ola) %>%
-  mutate(prop = n / sum(n)) %>%
-  ungroup()
-
-elsoc_ts
-```
-
-
-
-
-```{r, echo=FALSE}
-ggplot(elsoc_ts, aes(x = ola, y = prop, color = religion_cat)) +
-  geom_line(linewidth = 1.2) +
-  scale_y_continuous(labels = scales::percent) +
-  labs(
-    title = "Cambio en la identificación religiosa en Chile (ELSOC)",
-    x = "Ola",
-    y = "Porcentaje",
-    color = "Religión",
-    caption = "ELSOC. Observatorio del Cambio Religioso en Chile (OCRC)."
-  ) +
-  theme_minimal()
-```
+![Cambio en la identificación religiosa por cohorte (CEP)](../images/elsoc1.png){fig-align="center" width="90%"}
+*Fuente: Encuesta ELSOC. Observatorio del Cambio Religioso en Chile (OCRC).*
 
 El gráfico basado en ELSOC permite observar la evolución de la identificación religiosa en Chile a partir de un diseño longitudinal, siguiendo a los mismos individuos a lo largo de siete olas. Esto introduce una diferencia fundamental respecto a encuestas transversales: los cambios observados reflejan, en mayor medida, transformaciones reales en las trayectorias individuales y no solo reemplazos generacionales.
 
