@@ -4,6 +4,8 @@
 # Objetivo: armar todos los graficos de Bicentenario
 # =========================================================
 
+
+rm(list = ls())
 # Grafico 1: Curva de religiosidad
 
 library(dplyr)
