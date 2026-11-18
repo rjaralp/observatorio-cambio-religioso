@@ -1,36 +1,98 @@
 ---
 title: "Análisis"
+page-layout: full
+toc: false
 format:
   html:
-    toc: true
-    toc-depth: 3
-    code-fold: true
-    code-summary: "Mostrar código"
-execute:
-  warning: false
-  message: false
+    css: explorador.css
+    section-divs: false
 ---
 
-Esta sección constituye el núcleo del Observatorio del Cambio Religioso Chileno. Aquí se publican gráficos construidos a partir de las principales encuestas longitudinales disponibles en el país, junto con sus respectivas interpretaciones sustantivas.
+```{=html}
+<header class="analisis-portada analisis-contenedor">
+  <p class="analisis-seccion">Análisis</p>
+  <h1>El cambio religioso en datos</h1>
+  <p>Explora la identificación religiosa en Chile con las encuestas CEP y Bicentenario UC. Compara años, grupos de edad, sexo y generaciones.</p>
+</header>
 
-El objetivo no es solo describir tendencias, sino ofrecer una lectura analítica del cambio religioso en Chile durante las últimas décadas, identificando transformaciones en la identificación religiosa, la práctica y las creencias.
+<section class="explorador analisis-contenedor" id="explorador" aria-labelledby="explorador-titulo" aria-busy="true">
+  <fieldset id="explorador-filtros" class="explorador-filtros" disabled>
+    <legend class="visually-hidden">Filtros del explorador</legend>
+    <label for="explorador-encuesta">
+      Encuesta
+      <select id="explorador-encuesta" name="encuesta">
+        <option value="cep">Encuesta CEP</option>
+        <option value="bicentenario">Bicentenario UC</option>
+      </select>
+    </label>
+    <label for="explorador-vista">
+      Ver por
+      <select id="explorador-vista" name="vista">
+        <option value="tendencia">Evolución</option>
+        <option value="edad">Edad</option>
+        <option value="sexo">Sexo</option>
+        <option value="cohorte">Generación</option>
+      </select>
+    </label>
+    <label for="explorador-anio">
+      <span id="explorador-etiqueta-anio">Año destacado</span>
+      <select id="explorador-anio" name="anio"></select>
+    </label>
+  </fieldset>
 
-El orden de presentación es el siguiente:
+  <div class="explorador-panel">
+    <div class="explorador-cabecera">
+      <div>
+        <p class="explorador-periodo" id="explorador-periodo"></p>
+        <h2 id="explorador-titulo">Identificación religiosa en el tiempo</h2>
+        <p id="explorador-bajada"></p>
+      </div>
+      <div class="explorador-modos" role="group" aria-label="Formato de visualización" hidden>
+        <button type="button" id="explorador-mostrar-grafico" aria-pressed="true" aria-controls="explorador-figura">Gráfico</button>
+        <button type="button" id="explorador-mostrar-tabla" aria-pressed="false" aria-controls="explorador-tabla">Tabla</button>
+      </div>
+    </div>
+    <p id="explorador-estado" class="explorador-estado" role="status">Cargando los datos de las encuestas…</p>
+    <noscript><p class="explorador-estado">Activa JavaScript para usar los filtros. Puedes consultar las <a href="#series-publicadas">series publicadas</a> más abajo.</p></noscript>
+    <div id="explorador-resultados" hidden>
+      <fieldset id="explorador-leyenda" class="explorador-leyenda">
+        <legend class="visually-hidden">Categorías de identificación religiosa</legend>
+      </fieldset>
 
-1. Encuesta CEP (Centro de Estudios Públicos)
+      <div id="explorador-figura" class="explorador-figura">
+        <div id="explorador-grafico" class="explorador-grafico" tabindex="0" aria-label="Gráfico interactivo" aria-describedby="explorador-ayuda"></div>
+        <div id="explorador-resumen" class="explorador-resumen" role="complementary" aria-label="Detalle de los datos"></div>
+      </div>
 
-2. Encuesta Bicentenario UC 
+      <div id="explorador-tabla" class="explorador-tabla" hidden></div>
 
-3. ELSOC (Estudio Longitudinal Social de Chile, COES)
+      <p id="explorador-ayuda" class="explorador-ayuda"></p>
+      <div class="explorador-notas">
+        <p id="explorador-fuente"></p>
+        <p id="explorador-metodo"></p>
+      </div>
+    </div>
+  </div>
+</section>
+```
 
-En el futuro se incorporarán análisis comparados con otros países de América Latina y, eventualmente, análisis multinivel. Por ahora, el foco está puesto exclusivamente en la trayectoria chilena.
+```{=html}
+<section class="analisis-contenedor analisis-archivo" id="series-publicadas" aria-labelledby="series-publicadas-titulo">
+  <h2 id="series-publicadas-titulo">Series y lecturas publicadas</h2>
+  <p>Las lecturas de archivo se basan en los gráficos de la publicación original, calculados sin ponderar.</p>
+```
 
-## Encuesta CEP (1994-20024)
+```{=html}
+<details class="analisis-detalle">
+<summary><span>Encuesta CEP</span> <span>Serie histórica y análisis generacional</span></summary>
+```
+
+### Encuesta CEP {#encuesta-cep-1994-20024}
 
 La Encuesta CEP es la serie de opinión pública más extensa disponible en Chile, con levantamientos periódicos desde la década de 1990. Su continuidad temporal permite observar con mayor precisión las transformaciones en la estructura religiosa del país
 
 
-### Identificación religiosa
+#### Identificación religiosa
 
 En este primer gráfico se presenta la evolución de la identificación religiosa declarada por los encuestados.
 
@@ -53,7 +115,7 @@ En conjunto, el patrón observado sugiere que el cambio religioso chileno no se 
 
 ***
 
-### Identificación religiosa por cohorte
+#### Identificación religiosa por cohorte
 
 El cambio en la identificación religiosa en Chile no es homogéneo, sino con comportamiento particular marcado por la generación. Como se observa en la figura que se encuentra debajo, las distintas cohortes presentan trayectorias diferenciadas tanto en niveles como en ritmos de cambio.
 
@@ -72,9 +134,16 @@ Por su parte, la identificación evangélica se mantiene relativamente estable e
 
 En conjunto, estos resultados sugieren que el proceso de cambio religioso en Chile se explica en gran medida por un reemplazo generacional. Las nuevas cohortes no solo presentan menores niveles de identificación católica desde el inicio, sino que además muestran una mayor propensión a la no afiliación religiosa. De este modo, el declive agregado del catolicismo no responde únicamente a cambios individuales a lo largo del ciclo de vida, sino a diferencias estructurales entre generaciones.
 
-***
+```{=html}
+</details>
+```
 
-## Encuesta Bicentenario UC
+```{=html}
+<details class="analisis-detalle">
+<summary><span>Bicentenario UC</span> <span>Serie histórica y análisis generacional</span></summary>
+```
+
+### Encuesta Bicentenario UC {#encuesta-bicentenario-uc}
 
 Como indican en su página web (<https://encuestabicentenario.uc.cl/quienes-somos/>) la Encuesta Bicentenario es un proyecto de la Pontificia Universidad Católica de Chile, cuyo propósito es obtener información altamente confiable y sostenida en el tiempo acerca del estado de la sociedad chilena en tópicos relevantes y de alto impacto que permitan develar sus rasgos fundamentales.
 
@@ -82,7 +151,7 @@ Este estudio nació en el 2006 con la finalidad de conocer lo que pensaban los c
 
 Para la presente página se trabaja con una versión no oficial que juntó las bases de todos los años. Para poder acceder a ella se puede desacargar desde el repositorio de la página en el perfil de GitHub. 
 
-### Identificación religiosa
+#### Identificación religiosa
 
 El gráfico muestra la evolución de la identificación religiosa en Chile a partir de las distintas olas de la Encuesta Bicentenario, permitiendo observar los cambios ocurridos desde mediados de los años 2000 hasta comienzos de la década de 2020.
 
@@ -103,7 +172,7 @@ En conjunto, el patrón observado es consistente con el identificado en otras en
 
 ***
 
-### Identificación religiosa por cohorte
+#### Identificación religiosa por cohorte
 
 Al igual que en otras fuentes, los datos de la Encuesta Bicentenario muestran que el cambio en la identificación religiosa en Chile sigue un patrón generacional. Sin embargo, en este caso las trayectorias se observan de manera particularmente nítida, permitiendo distinguir diferencias tanto en niveles como en ritmos de transformación entre cohortes.
 
@@ -121,14 +190,21 @@ Por su parte, la identificación evangélica se mantiene relativamente estable e
 
 En conjunto, estos resultados apuntan a que el proceso de cambio religioso en Chile está fuertemente impulsado por el reemplazo generacional. Las diferencias observadas entre cohortes no solo reflejan cambios a lo largo del ciclo de vida, sino que dan cuenta de transformaciones más profundas en la forma en que las distintas generaciones se relacionan con la religión.
 
-***
+```{=html}
+</details>
+```
 
-## ELSOC (Estudio Longitudinal Social de Chile, COES)
+```{=html}
+<details class="analisis-detalle">
+<summary><span>ELSOC</span> <span>Resultados del estudio longitudinal</span></summary>
+```
+
+### ELSOC (Estudio Longitudinal Social de Chile, COES) {#elsoc-estudio-longitudinal-social-de-chile-coes}
 
 El Estudio Longitudinal Social de Chile (ELSOC) fue una encuesta realizada de forma anual a la población urbana chilena desde el 2016 hasta el 2023. Como bien señalan en su página web (<https://conferencias.coes.cl/encuesta-panel/>) el fin de deicha herramienta era evaluar la manera cómo piensan, sienten y se comportan los chilenos en torno a un conjunto de temas referidos al conflicto y la cohesión social en el país.
 
 
-### Identificación religiosa
+#### Identificación religiosa
 
 El gráfico basado en ELSOC permite observar la evolución de la identificación religiosa en Chile a partir de un diseño longitudinal, siguiendo a los mismos individuos a lo largo de siete olas. Esto introduce una diferencia fundamental respecto a encuestas transversales: los cambios observados reflejan, en mayor medida, transformaciones reales en las trayectorias individuales y no solo reemplazos generacionales.
 
@@ -150,7 +226,7 @@ En conjunto, el patrón longitudinal refuerza la interpretación de que el cambi
 Más ampliamente, los datos apuntan a un proceso de reconfiguración del campo religioso en el cual la pérdida de centralidad del catolicismo se combina con una expansión de posiciones de no afiliación relativamente estables, una vez que estas se adoptan.
 
 ***
-### Identificación religiosa por cohorte
+#### Identificación religiosa por cohorte
 
 El análisis por cohortes utilizando datos de ELSOC introduce una perspectiva complementaria a la observada en encuestas transversales. A diferencia de estas últimas, el diseño longitudinal permite seguir a los mismos individuos a lo largo del tiempo, lo que hace posible distinguir entre cambios generacionales y transformaciones dentro de las propias trayectorias individuales.
 
@@ -167,3 +243,12 @@ Por su parte, la identificación evangélica/protestante se mantiene estable en 
 En conjunto, los resultados sugieren que el proceso de cambio religioso en Chile responde a una combinación de mecanismos. Por un lado, existe un componente de reemplazo generacional, donde las cohortes más jóvenes presentan niveles más bajos de identificación católica y mayores niveles de no afiliación. Por otro, el panel evidencia que también ocurren cambios, aunque más acotados, dentro de las trayectorias individuales, especialmente en la dirección de una mayor desafiliación.
 
 De este modo, el análisis longitudinal matiza la interpretación del cambio religioso en Chile: si bien el reemplazo generacional es clave para entender las tendencias de largo plazo, este no agota la explicación. Las transformaciones en la identificación religiosa también se producen, aunque de forma más gradual, a lo largo del ciclo de vida de los individuos.
+
+```{=html}
+</details>
+```
+
+```{=html}
+</section>
+<script src="explorador.js" defer></script>
+```
