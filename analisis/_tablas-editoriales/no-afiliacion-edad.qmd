@@ -1,0 +1,22 @@
+```{=html}
+<!-- Generado por scripts/06_tablas_editoriales.R. -->
+<details class="editorial-tabla">
+  <summary>Ver tabla por grupo etario</summary>
+  <div class="editorial-tabla-contenedor" role="region" tabindex="0" aria-labelledby="tabla-no-afiliacion-edad-titulo">
+  <table data-quarto-disable-processing="true">
+    <caption id="tabla-no-afiliacion-edad-titulo">Estimaciones ponderadas por grupo etario</caption>
+    <thead><tr><th scope="col">Encuesta</th><th scope="col">Año</th><th scope="col">Grupo etario</th><th scope="col" class="editorial-cifra">Sin religión (%)</th><th scope="col" class="editorial-cifra">Casos válidos (n)</th></tr></thead>
+    <tbody>
+      <tr><td>CEP</td><td>2021</td><th scope="row">18–29</th><td class="editorial-cifra">48,0</td><td class="editorial-cifra">246</td></tr>
+      <tr><td>CEP</td><td>2021</td><th scope="row">30–44</th><td class="editorial-cifra">36,7</td><td class="editorial-cifra">331</td></tr>
+      <tr><td>CEP</td><td>2021</td><th scope="row">45–59</th><td class="editorial-cifra">26,2</td><td class="editorial-cifra">361</td></tr>
+      <tr><td>CEP</td><td>2021</td><th scope="row">60 o más</th><td class="editorial-cifra">16,6</td><td class="editorial-cifra">463</td></tr>
+      <tr><td>Bicentenario UC</td><td>2024</td><th scope="row">18–29</th><td class="editorial-cifra">51,5</td><td class="editorial-cifra">235</td></tr>
+      <tr><td>Bicentenario UC</td><td>2024</td><th scope="row">30–44</th><td class="editorial-cifra">46,0</td><td class="editorial-cifra">422</td></tr>
+      <tr><td>Bicentenario UC</td><td>2024</td><th scope="row">45–59</th><td class="editorial-cifra">27,0</td><td class="editorial-cifra">400</td></tr>
+      <tr><td>Bicentenario UC</td><td>2024</td><th scope="row">60 o más</th><td class="editorial-cifra">23,7</td><td class="editorial-cifra">566</td></tr>
+    </tbody>
+  </table>
+  </div>
+</details>
+```

@@ -1,0 +1,138 @@
+.editoriales {
+  padding-block: clamp(2.75rem, 6vw, 5rem) 0;
+}
+
+.editoriales h2 {
+  margin: 0 0 .5rem;
+  padding: 0;
+  border: 0;
+  font-size: clamp(2rem, 4.2vw, 3.4rem);
+  letter-spacing: -.035em;
+  line-height: 1.06;
+}
+
+.editoriales > p {
+  max-width: 46rem;
+  color: var(--ocrc-muted);
+}
+
+.editorial-historia {
+  display: grid;
+  grid-template-columns: minmax(0, .85fr) minmax(0, 1.65fr);
+  align-items: start;
+  gap: clamp(1.25rem, 4vw, 3.5rem);
+  padding-block: clamp(1.5rem, 4vw, 3rem);
+  border-top: 1px solid var(--ocrc-border);
+}
+
+.editorial-historia:first-of-type {
+  margin-top: 1.75rem;
+}
+
+.editorial-texto h3 {
+  margin: 0 0 .6rem;
+  font-size: clamp(1.55rem, 3vw, 2.35rem);
+  letter-spacing: -.025em;
+  line-height: 1.1;
+}
+
+.editorial-pregunta {
+  margin: 0 0 .85rem;
+  color: var(--ocrc-brand);
+  font-weight: 650;
+}
+
+.editorial-texto p:last-child {
+  margin-bottom: 0;
+}
+
+.editorial-figura {
+  margin: 0 0 .85rem;
+}
+
+.editorial-figura img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.editorial-figura figcaption,
+.editorial-metodo {
+  color: var(--ocrc-muted);
+  font-size: .9rem;
+  line-height: 1.55;
+}
+
+.editorial-figura figcaption {
+  margin-top: .7rem;
+}
+
+.editorial-tabla summary {
+  width: fit-content;
+  min-height: 2rem;
+  padding-block: .25rem;
+  color: var(--ocrc-brand);
+  font-weight: 650;
+  cursor: pointer;
+}
+
+.editorial-tabla-contenedor {
+  overflow-x: auto;
+  margin-top: .5rem;
+  border: 1px solid var(--ocrc-border);
+  border-radius: .4rem;
+}
+
+.editorial-tabla-contenedor:focus-visible {
+  outline: 3px solid var(--ocrc-brand);
+  outline-offset: 3px;
+}
+
+.editorial-tabla-contenedor > .table {
+  margin-bottom: 0;
+}
+
+.editorial-tabla-contenedor:not(.editorial-tabla *) {
+  margin-bottom: 1rem;
+}
+
+.editorial-tabla table {
+  width: 100%;
+  margin: 0;
+  border-collapse: collapse;
+  font-size: .875rem;
+}
+
+.editorial-tabla caption {
+  padding: .5rem .65rem;
+  color: var(--ocrc-muted);
+  caption-side: top;
+}
+
+.editorial-tabla :is(th, td) {
+  padding: .48rem .65rem;
+  border-top: 1px solid var(--ocrc-border);
+  text-align: left;
+}
+
+.editorial-tabla thead {
+  background: var(--ocrc-paper);
+}
+
+.editorial-tabla .editorial-cifra {
+  text-align: right;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.editorial-tabla .editorial-tabla-nota {
+  margin: .45rem 0 0;
+  color: var(--ocrc-muted);
+  font-size: .8rem;
+}
+
+@media (max-width: 52rem) {
+  .editorial-historia {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

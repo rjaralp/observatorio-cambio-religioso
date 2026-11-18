@@ -4,7 +4,9 @@ page-layout: full
 toc: false
 format:
   html:
-    css: explorador.css
+    css:
+      - explorador.css
+      - editoriales.css
     section-divs: false
 ---
 
@@ -76,10 +78,12 @@ format:
 </section>
 ```
 
+{{< include _preguntas.qmd >}}
+
 ```{=html}
 <section class="analisis-contenedor analisis-archivo" id="series-publicadas" aria-labelledby="series-publicadas-titulo">
   <h2 id="series-publicadas-titulo">Series y lecturas publicadas</h2>
-  <p>Las lecturas de archivo se basan en los gráficos de la publicación original, calculados sin ponderar.</p>
+  <p>Las lecturas de archivo se basan en los gráficos de la publicación original, calculados sin ponderar. En CEP y Bicentenario UC, los contrastes por cohorte describen grupos observados en cortes transversales.</p>
 ```
 
 ```{=html}

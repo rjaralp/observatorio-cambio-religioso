@@ -1,0 +1,96 @@
+```{=html}
+<!-- Generado por scripts/06_tablas_editoriales.R. -->
+<details class="editorial-tabla">
+  <summary>Ver tabla por sexo registrado</summary>
+  <div class="editorial-tabla-contenedor" role="region" tabindex="0" aria-labelledby="tabla-brecha-genero-titulo">
+  <table data-quarto-disable-processing="true">
+    <caption id="tabla-brecha-genero-titulo">Estimaciones ponderadas por sexo registrado</caption>
+    <thead><tr><th scope="col">Encuesta</th><th scope="col">Año</th><th scope="col">Sexo registrado</th><th scope="col" class="editorial-cifra">Católica (%)</th><th scope="col" class="editorial-cifra">Sin religión (%)</th><th scope="col" class="editorial-cifra">Casos válidos (n)</th></tr></thead>
+    <tbody>
+      <tr><td>CEP</td><td>1995</td><th scope="row">Hombres</th><td class="editorial-cifra">68,7</td><td class="editorial-cifra">10,8</td><td class="editorial-cifra">724</td></tr>
+      <tr><td>CEP</td><td>1995</td><th scope="row">Mujeres</th><td class="editorial-cifra">75,8</td><td class="editorial-cifra">3,7</td><td class="editorial-cifra">777</td></tr>
+      <tr><td>CEP</td><td>1998</td><th scope="row">Hombres</th><td class="editorial-cifra">69,8</td><td class="editorial-cifra">8,8</td><td class="editorial-cifra">628</td></tr>
+      <tr><td>CEP</td><td>1998</td><th scope="row">Mujeres</th><td class="editorial-cifra">75,0</td><td class="editorial-cifra">4,5</td><td class="editorial-cifra">867</td></tr>
+      <tr><td>CEP</td><td>1999</td><th scope="row">Hombres</th><td class="editorial-cifra">72,8</td><td class="editorial-cifra">10,1</td><td class="editorial-cifra">635</td></tr>
+      <tr><td>CEP</td><td>1999</td><th scope="row">Mujeres</th><td class="editorial-cifra">75,2</td><td class="editorial-cifra">4,2</td><td class="editorial-cifra">860</td></tr>
+      <tr><td>CEP</td><td>2000</td><th scope="row">Hombres</th><td class="editorial-cifra">74,5</td><td class="editorial-cifra">10,4</td><td class="editorial-cifra">1.277</td></tr>
+      <tr><td>CEP</td><td>2000</td><th scope="row">Mujeres</th><td class="editorial-cifra">75,7</td><td class="editorial-cifra">5,6</td><td class="editorial-cifra">1.701</td></tr>
+      <tr><td>CEP</td><td>2002</td><th scope="row">Hombres</th><td class="editorial-cifra">70,4</td><td class="editorial-cifra">10,1</td><td class="editorial-cifra">2.112</td></tr>
+      <tr><td>CEP</td><td>2002</td><th scope="row">Mujeres</th><td class="editorial-cifra">71,2</td><td class="editorial-cifra">8,5</td><td class="editorial-cifra">2.317</td></tr>
+      <tr><td>CEP</td><td>2003</td><th scope="row">Hombres</th><td class="editorial-cifra">66,9</td><td class="editorial-cifra">14,4</td><td class="editorial-cifra">1.170</td></tr>
+      <tr><td>CEP</td><td>2003</td><th scope="row">Mujeres</th><td class="editorial-cifra">74,6</td><td class="editorial-cifra">6,4</td><td class="editorial-cifra">1.717</td></tr>
+      <tr><td>CEP</td><td>2004</td><th scope="row">Hombres</th><td class="editorial-cifra">67,1</td><td class="editorial-cifra">14,0</td><td class="editorial-cifra">1.230</td></tr>
+      <tr><td>CEP</td><td>2004</td><th scope="row">Mujeres</th><td class="editorial-cifra">73,0</td><td class="editorial-cifra">6,4</td><td class="editorial-cifra">1.737</td></tr>
+      <tr><td>CEP</td><td>2005</td><th scope="row">Hombres</th><td class="editorial-cifra">66,2</td><td class="editorial-cifra">13,4</td><td class="editorial-cifra">1.882</td></tr>
+      <tr><td>CEP</td><td>2005</td><th scope="row">Mujeres</th><td class="editorial-cifra">73,4</td><td class="editorial-cifra">6,8</td><td class="editorial-cifra">2.559</td></tr>
+      <tr><td>CEP</td><td>2006</td><th scope="row">Hombres</th><td class="editorial-cifra">63,1</td><td class="editorial-cifra">17,9</td><td class="editorial-cifra">1.194</td></tr>
+      <tr><td>CEP</td><td>2006</td><th scope="row">Mujeres</th><td class="editorial-cifra">69,7</td><td class="editorial-cifra">9,2</td><td class="editorial-cifra">1.775</td></tr>
+      <tr><td>CEP</td><td>2007</td><th scope="row">Hombres</th><td class="editorial-cifra">68,5</td><td class="editorial-cifra">13,9</td><td class="editorial-cifra">1.193</td></tr>
+      <tr><td>CEP</td><td>2007</td><th scope="row">Mujeres</th><td class="editorial-cifra">69,5</td><td class="editorial-cifra">8,6</td><td class="editorial-cifra">1.769</td></tr>
+      <tr><td>CEP</td><td>2008</td><th scope="row">Hombres</th><td class="editorial-cifra">64,5</td><td class="editorial-cifra">17,3</td><td class="editorial-cifra">630</td></tr>
+      <tr><td>CEP</td><td>2008</td><th scope="row">Mujeres</th><td class="editorial-cifra">72,4</td><td class="editorial-cifra">7,6</td><td class="editorial-cifra">863</td></tr>
+      <tr><td>CEP</td><td>2009</td><th scope="row">Hombres</th><td class="editorial-cifra">64,7</td><td class="editorial-cifra">15,1</td><td class="editorial-cifra">1.870</td></tr>
+      <tr><td>CEP</td><td>2009</td><th scope="row">Mujeres</th><td class="editorial-cifra">69,0</td><td class="editorial-cifra">8,5</td><td class="editorial-cifra">2.603</td></tr>
+      <tr><td>CEP</td><td>2010</td><th scope="row">Hombres</th><td class="editorial-cifra">64,6</td><td class="editorial-cifra">16,7</td><td class="editorial-cifra">1.198</td></tr>
+      <tr><td>CEP</td><td>2010</td><th scope="row">Mujeres</th><td class="editorial-cifra">69,3</td><td class="editorial-cifra">9,7</td><td class="editorial-cifra">1.712</td></tr>
+      <tr><td>CEP</td><td>2011</td><th scope="row">Hombres</th><td class="editorial-cifra">63,9</td><td class="editorial-cifra">18,6</td><td class="editorial-cifra">1.236</td></tr>
+      <tr><td>CEP</td><td>2011</td><th scope="row">Mujeres</th><td class="editorial-cifra">67,8</td><td class="editorial-cifra">9,9</td><td class="editorial-cifra">1.865</td></tr>
+      <tr><td>CEP</td><td>2012</td><th scope="row">Hombres</th><td class="editorial-cifra">63,5</td><td class="editorial-cifra">18,6</td><td class="editorial-cifra">1.806</td></tr>
+      <tr><td>CEP</td><td>2012</td><th scope="row">Mujeres</th><td class="editorial-cifra">68,2</td><td class="editorial-cifra">10,8</td><td class="editorial-cifra">2.718</td></tr>
+      <tr><td>CEP</td><td>2013</td><th scope="row">Hombres</th><td class="editorial-cifra">59,5</td><td class="editorial-cifra">21,7</td><td class="editorial-cifra">1.185</td></tr>
+      <tr><td>CEP</td><td>2013</td><th scope="row">Mujeres</th><td class="editorial-cifra">65,0</td><td class="editorial-cifra">14,2</td><td class="editorial-cifra">1.706</td></tr>
+      <tr><td>CEP</td><td>2014</td><th scope="row">Hombres</th><td class="editorial-cifra">58,3</td><td class="editorial-cifra">25,3</td><td class="editorial-cifra">1.141</td></tr>
+      <tr><td>CEP</td><td>2014</td><th scope="row">Mujeres</th><td class="editorial-cifra">62,6</td><td class="editorial-cifra">15,7</td><td class="editorial-cifra">1.696</td></tr>
+      <tr><td>CEP</td><td>2015</td><th scope="row">Hombres</th><td class="editorial-cifra">55,7</td><td class="editorial-cifra">25,7</td><td class="editorial-cifra">1.626</td></tr>
+      <tr><td>CEP</td><td>2015</td><th scope="row">Mujeres</th><td class="editorial-cifra">60,8</td><td class="editorial-cifra">16,2</td><td class="editorial-cifra">2.563</td></tr>
+      <tr><td>CEP</td><td>2016</td><th scope="row">Hombres</th><td class="editorial-cifra">55,0</td><td class="editorial-cifra">27,8</td><td class="editorial-cifra">1.078</td></tr>
+      <tr><td>CEP</td><td>2016</td><th scope="row">Mujeres</th><td class="editorial-cifra">62,5</td><td class="editorial-cifra">17,6</td><td class="editorial-cifra">1.693</td></tr>
+      <tr><td>CEP</td><td>2017</td><th scope="row">Hombres</th><td class="editorial-cifra">55,4</td><td class="editorial-cifra">26,3</td><td class="editorial-cifra">1.674</td></tr>
+      <tr><td>CEP</td><td>2017</td><th scope="row">Mujeres</th><td class="editorial-cifra">63,5</td><td class="editorial-cifra">16,4</td><td class="editorial-cifra">2.552</td></tr>
+      <tr><td>CEP</td><td>2018</td><th scope="row">Hombres</th><td class="editorial-cifra">53,7</td><td class="editorial-cifra">25,8</td><td class="editorial-cifra">503</td></tr>
+      <tr><td>CEP</td><td>2018</td><th scope="row">Mujeres</th><td class="editorial-cifra">59,5</td><td class="editorial-cifra">17,7</td><td class="editorial-cifra">865</td></tr>
+      <tr><td>CEP</td><td>2019</td><th scope="row">Hombres</th><td class="editorial-cifra">48,0</td><td class="editorial-cifra">37,1</td><td class="editorial-cifra">1.064</td></tr>
+      <tr><td>CEP</td><td>2019</td><th scope="row">Mujeres</th><td class="editorial-cifra">55,6</td><td class="editorial-cifra">22,1</td><td class="editorial-cifra">1.725</td></tr>
+      <tr><td>CEP</td><td>2021</td><th scope="row">Hombres</th><td class="editorial-cifra">48,3</td><td class="editorial-cifra">35,5</td><td class="editorial-cifra">516</td></tr>
+      <tr><td>CEP</td><td>2021</td><th scope="row">Mujeres</th><td class="editorial-cifra">48,0</td><td class="editorial-cifra">29,2</td><td class="editorial-cifra">885</td></tr>
+      <tr><td>Bicentenario UC</td><td>2006</td><th scope="row">Hombres</th><td class="editorial-cifra">64,0</td><td class="editorial-cifra">18,2</td><td class="editorial-cifra">950</td></tr>
+      <tr><td>Bicentenario UC</td><td>2006</td><th scope="row">Mujeres</th><td class="editorial-cifra">75,2</td><td class="editorial-cifra">5,9</td><td class="editorial-cifra">1.087</td></tr>
+      <tr><td>Bicentenario UC</td><td>2007</td><th scope="row">Hombres</th><td class="editorial-cifra">63,7</td><td class="editorial-cifra">18,2</td><td class="editorial-cifra">805</td></tr>
+      <tr><td>Bicentenario UC</td><td>2007</td><th scope="row">Mujeres</th><td class="editorial-cifra">67,3</td><td class="editorial-cifra">9,6</td><td class="editorial-cifra">1.228</td></tr>
+      <tr><td>Bicentenario UC</td><td>2008</td><th scope="row">Hombres</th><td class="editorial-cifra">64,5</td><td class="editorial-cifra">19,6</td><td class="editorial-cifra">951</td></tr>
+      <tr><td>Bicentenario UC</td><td>2008</td><th scope="row">Mujeres</th><td class="editorial-cifra">69,7</td><td class="editorial-cifra">10,3</td><td class="editorial-cifra">1.064</td></tr>
+      <tr><td>Bicentenario UC</td><td>2009</td><th scope="row">Hombres</th><td class="editorial-cifra">65,0</td><td class="editorial-cifra">18,5</td><td class="editorial-cifra">930</td></tr>
+      <tr><td>Bicentenario UC</td><td>2009</td><th scope="row">Mujeres</th><td class="editorial-cifra">68,4</td><td class="editorial-cifra">8,5</td><td class="editorial-cifra">1.077</td></tr>
+      <tr><td>Bicentenario UC</td><td>2010</td><th scope="row">Hombres</th><td class="editorial-cifra">60,3</td><td class="editorial-cifra">23,1</td><td class="editorial-cifra">936</td></tr>
+      <tr><td>Bicentenario UC</td><td>2010</td><th scope="row">Mujeres</th><td class="editorial-cifra">66,6</td><td class="editorial-cifra">12,2</td><td class="editorial-cifra">1.070</td></tr>
+      <tr><td>Bicentenario UC</td><td>2011</td><th scope="row">Hombres</th><td class="editorial-cifra">59,9</td><td class="editorial-cifra">22,9</td><td class="editorial-cifra">928</td></tr>
+      <tr><td>Bicentenario UC</td><td>2011</td><th scope="row">Mujeres</th><td class="editorial-cifra">65,5</td><td class="editorial-cifra">13,1</td><td class="editorial-cifra">1.073</td></tr>
+      <tr><td>Bicentenario UC</td><td>2012</td><th scope="row">Hombres</th><td class="editorial-cifra">51,8</td><td class="editorial-cifra">25,6</td><td class="editorial-cifra">947</td></tr>
+      <tr><td>Bicentenario UC</td><td>2012</td><th scope="row">Mujeres</th><td class="editorial-cifra">65,0</td><td class="editorial-cifra">13,1</td><td class="editorial-cifra">1.062</td></tr>
+      <tr><td>Bicentenario UC</td><td>2013</td><th scope="row">Hombres</th><td class="editorial-cifra">56,4</td><td class="editorial-cifra">25,2</td><td class="editorial-cifra">851</td></tr>
+      <tr><td>Bicentenario UC</td><td>2013</td><th scope="row">Mujeres</th><td class="editorial-cifra">66,5</td><td class="editorial-cifra">11,0</td><td class="editorial-cifra">1.138</td></tr>
+      <tr><td>Bicentenario UC</td><td>2014</td><th scope="row">Hombres</th><td class="editorial-cifra">56,4</td><td class="editorial-cifra">27,0</td><td class="editorial-cifra">889</td></tr>
+      <tr><td>Bicentenario UC</td><td>2014</td><th scope="row">Mujeres</th><td class="editorial-cifra">61,7</td><td class="editorial-cifra">16,3</td><td class="editorial-cifra">1.121</td></tr>
+      <tr><td>Bicentenario UC</td><td>2015</td><th scope="row">Hombres</th><td class="editorial-cifra">58,1</td><td class="editorial-cifra">25,3</td><td class="editorial-cifra">911</td></tr>
+      <tr><td>Bicentenario UC</td><td>2015</td><th scope="row">Mujeres</th><td class="editorial-cifra">63,5</td><td class="editorial-cifra">16,1</td><td class="editorial-cifra">1.097</td></tr>
+      <tr><td>Bicentenario UC</td><td>2016</td><th scope="row">Hombres</th><td class="editorial-cifra">54,9</td><td class="editorial-cifra">26,2</td><td class="editorial-cifra">790</td></tr>
+      <tr><td>Bicentenario UC</td><td>2016</td><th scope="row">Mujeres</th><td class="editorial-cifra">62,3</td><td class="editorial-cifra">15,1</td><td class="editorial-cifra">1.214</td></tr>
+      <tr><td>Bicentenario UC</td><td>2017</td><th scope="row">Hombres</th><td class="editorial-cifra">58,1</td><td class="editorial-cifra">22,4</td><td class="editorial-cifra">785</td></tr>
+      <tr><td>Bicentenario UC</td><td>2017</td><th scope="row">Mujeres</th><td class="editorial-cifra">61,3</td><td class="editorial-cifra">16,3</td><td class="editorial-cifra">1.203</td></tr>
+      <tr><td>Bicentenario UC</td><td>2018</td><th scope="row">Hombres</th><td class="editorial-cifra">61,8</td><td class="editorial-cifra">19,2</td><td class="editorial-cifra">766</td></tr>
+      <tr><td>Bicentenario UC</td><td>2018</td><th scope="row">Mujeres</th><td class="editorial-cifra">62,5</td><td class="editorial-cifra">18,3</td><td class="editorial-cifra">1.210</td></tr>
+      <tr><td>Bicentenario UC</td><td>2019</td><th scope="row">Hombres</th><td class="editorial-cifra">39,4</td><td class="editorial-cifra">37,6</td><td class="editorial-cifra">746</td></tr>
+      <tr><td>Bicentenario UC</td><td>2019</td><th scope="row">Mujeres</th><td class="editorial-cifra">50,2</td><td class="editorial-cifra">26,9</td><td class="editorial-cifra">1.290</td></tr>
+      <tr><td>Bicentenario UC</td><td>2021</td><th scope="row">Hombres</th><td class="editorial-cifra">38,9</td><td class="editorial-cifra">43,5</td><td class="editorial-cifra">667</td></tr>
+      <tr><td>Bicentenario UC</td><td>2021</td><th scope="row">Mujeres</th><td class="editorial-cifra">46,5</td><td class="editorial-cifra">31,4</td><td class="editorial-cifra">1.317</td></tr>
+      <tr><td>Bicentenario UC</td><td>2022</td><th scope="row">Hombres</th><td class="editorial-cifra">47,8</td><td class="editorial-cifra">34,0</td><td class="editorial-cifra">663</td></tr>
+      <tr><td>Bicentenario UC</td><td>2022</td><th scope="row">Mujeres</th><td class="editorial-cifra">49,8</td><td class="editorial-cifra">26,0</td><td class="editorial-cifra">1.225</td></tr>
+      <tr><td>Bicentenario UC</td><td>2023</td><th scope="row">Hombres</th><td class="editorial-cifra">45,8</td><td class="editorial-cifra">33,9</td><td class="editorial-cifra">565</td></tr>
+      <tr><td>Bicentenario UC</td><td>2023</td><th scope="row">Mujeres</th><td class="editorial-cifra">44,7</td><td class="editorial-cifra">32,7</td><td class="editorial-cifra">996</td></tr>
+      <tr><td>Bicentenario UC</td><td>2024</td><th scope="row">Hombres</th><td class="editorial-cifra">42,5</td><td class="editorial-cifra">42,6</td><td class="editorial-cifra">559</td></tr>
+      <tr><td>Bicentenario UC</td><td>2024</td><th scope="row">Mujeres</th><td class="editorial-cifra">42,4</td><td class="editorial-cifra">32,3</td><td class="editorial-cifra">1.064</td></tr>
+    </tbody>
+  </table>
+  </div>
+</details>
+```
