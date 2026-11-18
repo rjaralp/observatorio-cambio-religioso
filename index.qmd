@@ -1,30 +1,53 @@
 ---
 title: "Observatorio del Cambio Religioso en Chile"
+title-block-style: none
+page-layout: full
+toc: false
 ---
 
-<div style="text-align: center;">
-  <img src="images/logo1.png" alt="Logo OCRC" width="180">
+```{=html}
+<div class="ocrc-home">
+  <section class="home-hero" aria-labelledby="home-title">
+    <div class="home-hero-copy">
+      <p class="home-kicker"><span></span> Observatorio del Cambio Religioso en Chile</p>
+      <h1 id="home-title">¿Cómo cambia la <em>religión</em> en Chile?</h1>
+      <p class="home-intro">Explora cómo ha evolucionado la identificación religiosa en Chile y qué diferencias muestran las encuestas según la edad, el sexo y la generación.</p>
+      <div class="home-actions">
+        <a class="ocrc-button ocrc-button-primary" href="analisis/analisis.html#explorador">Explorar los gráficos <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a>
+        <a class="ocrc-button ocrc-button-secondary" href="datos/datos.html">Conocer las fuentes</a>
+      </div>
+    </div>
+    <figure class="home-hero-image">
+      <img src="images/santiago-iglesia.webp" alt="" width="1120" height="840" fetchpriority="high">
+      <figcaption>Vista ilustrativa de Santiago y la cordillera</figcaption>
+    </figure>
+  </section>
+
+  <section class="home-explore" aria-labelledby="home-explore-title">
+    <div class="home-section-heading">
+      <h2 id="home-explore-title">Una mirada a los datos</h2>
+      <p>Elige una encuesta y empieza por una tendencia histórica o una comparación entre grupos.</p>
+    </div>
+    <div class="home-cards">
+      <a class="home-card home-card-cep" href="analisis/analisis.html?encuesta=cep&amp;vista=tendencia#explorador">
+        <span class="home-card-meta"><span><i class="bi bi-graph-up" aria-hidden="true"></i> Encuesta CEP</span><span>1995–2021</span></span>
+        <span class="home-card-title">Identificación religiosa a través del tiempo</span>
+        <span class="home-card-link">Ver tendencia <i class="bi bi-arrow-right" aria-hidden="true"></i></span>
+      </a>
+      <a class="home-card home-card-bic" href="analisis/analisis.html?encuesta=bicentenario&amp;vista=edad#explorador">
+        <span class="home-card-meta"><span><i class="bi bi-bar-chart" aria-hidden="true"></i> Encuesta Bicentenario UC</span><span>2006–2024</span></span>
+        <span class="home-card-title">Identificación religiosa por edad</span>
+        <span class="home-card-link">Comparar edades <i class="bi bi-arrow-right" aria-hidden="true"></i></span>
+      </a>
+    </div>
+  </section>
+
+  <section class="home-project" aria-labelledby="home-project-title">
+    <div>
+      <h2 id="home-project-title">Un proyecto de investigación abierto</h2>
+      <p>El Observatorio reúne encuestas y recursos para estudiar el cambio religioso en Chile. Lo dirige el sociólogo Ramón Jara López.</p>
+    </div>
+    <a class="home-project-link" href="about.html">Sobre el proyecto <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+  </section>
 </div>
-
-Plataforma abierta de análisis y visualización de datos sobre identificación religiosa, afiliación y transformación cultural en Chile.
-
-Este proyecto reúne indicadores, series temporales, bases de datos y recursos orientados a la investigación académica, el análisis público y el trabajo periodístico.
-
-## Líneas de trabajo
-
-- Series históricas de identificación religiosa
-- Análisis generacional (Edad–Período–Cohorte)
-- Transformación del catolicismo, evangelismo y no afiliación
-- Datos abiertos y código reproducible
-
----
-
-### Dirección
-
-**Ramón Jara López**  
-Sociólogo y Mg. en Sociología, Pontificia Universidad Católica de Chile  
-Investigador
-
----
-
-Proyecto iniciado el 11 de febrero de 2026, festividad de Nuestra Señora de Lourdes.
+```

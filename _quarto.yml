@@ -1,11 +1,20 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "**/*.qmd"
+  resources:
+    - fonts/
+    - analisis/explorador.js
+    - analisis/datos-explorador.json
+
+lang: es-CL
 
 website:
   title: "Observatorio del Cambio Religioso en Chile"
   site-url: "https://rjaralp.github.io/observatorio-cambio-religioso/"
   navbar:
+    title: "OCRC"
     left:
       - text: Inicio
         href: index.qmd
@@ -17,6 +26,8 @@ website:
         href: papers/papers.qmd
       - text: Sobre el Proyecto
         href: about.qmd
+  page-footer:
+    left: "Observatorio del Cambio Religioso en Chile"
 
 format:
   html:
