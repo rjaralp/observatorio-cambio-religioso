@@ -1,0 +1,55 @@
+```{=html}
+<!-- Generado por scripts/06_tablas_editoriales.R. -->
+<details class="editorial-tabla">
+  <summary>Ver tabla de catolicismo entre jóvenes</summary>
+  <div class="editorial-tabla-contenedor" role="region" tabindex="0" aria-labelledby="tabla-catolicismo-joven-titulo">
+  <table data-quarto-disable-processing="true">
+    <caption id="tabla-catolicismo-joven-titulo">Estimaciones ponderadas de catolicismo entre jóvenes</caption>
+    <thead><tr><th scope="col">Encuesta</th><th scope="col">Año</th><th scope="col" class="editorial-cifra">Católica (%)</th><th scope="col" class="editorial-cifra">Casos válidos (n)</th></tr></thead>
+    <tbody>
+      <tr><td>CEP</td><th scope="row">1995</th><td class="editorial-cifra">68,4</td><td class="editorial-cifra">403</td></tr>
+      <tr><td>CEP</td><th scope="row">1998</th><td class="editorial-cifra">66,7</td><td class="editorial-cifra">380</td></tr>
+      <tr><td>CEP</td><th scope="row">1999</th><td class="editorial-cifra">70,5</td><td class="editorial-cifra">346</td></tr>
+      <tr><td>CEP</td><th scope="row">2000</th><td class="editorial-cifra">69,7</td><td class="editorial-cifra">733</td></tr>
+      <tr><td>CEP</td><th scope="row">2002</th><td class="editorial-cifra">65,7</td><td class="editorial-cifra">1.077</td></tr>
+      <tr><td>CEP</td><th scope="row">2003</th><td class="editorial-cifra">64,9</td><td class="editorial-cifra">654</td></tr>
+      <tr><td>CEP</td><th scope="row">2004</th><td class="editorial-cifra">63,0</td><td class="editorial-cifra">595</td></tr>
+      <tr><td>CEP</td><th scope="row">2005</th><td class="editorial-cifra">63,9</td><td class="editorial-cifra">958</td></tr>
+      <tr><td>CEP</td><th scope="row">2006</th><td class="editorial-cifra">58,4</td><td class="editorial-cifra">629</td></tr>
+      <tr><td>CEP</td><th scope="row">2007</th><td class="editorial-cifra">63,8</td><td class="editorial-cifra">649</td></tr>
+      <tr><td>CEP</td><th scope="row">2008</th><td class="editorial-cifra">62,4</td><td class="editorial-cifra">342</td></tr>
+      <tr><td>CEP</td><th scope="row">2009</th><td class="editorial-cifra">59,5</td><td class="editorial-cifra">880</td></tr>
+      <tr><td>CEP</td><th scope="row">2010</th><td class="editorial-cifra">58,5</td><td class="editorial-cifra">605</td></tr>
+      <tr><td>CEP</td><th scope="row">2011</th><td class="editorial-cifra">61,5</td><td class="editorial-cifra">639</td></tr>
+      <tr><td>CEP</td><th scope="row">2012</th><td class="editorial-cifra">58,3</td><td class="editorial-cifra">933</td></tr>
+      <tr><td>CEP</td><th scope="row">2013</th><td class="editorial-cifra">47,5</td><td class="editorial-cifra">532</td></tr>
+      <tr><td>CEP</td><th scope="row">2014</th><td class="editorial-cifra">52,1</td><td class="editorial-cifra">575</td></tr>
+      <tr><td>CEP</td><th scope="row">2015</th><td class="editorial-cifra">54,1</td><td class="editorial-cifra">799</td></tr>
+      <tr><td>CEP</td><th scope="row">2016</th><td class="editorial-cifra">54,1</td><td class="editorial-cifra">465</td></tr>
+      <tr><td>CEP</td><th scope="row">2017</th><td class="editorial-cifra">49,9</td><td class="editorial-cifra">714</td></tr>
+      <tr><td>CEP</td><th scope="row">2018</th><td class="editorial-cifra">44,7</td><td class="editorial-cifra">235</td></tr>
+      <tr><td>CEP</td><th scope="row">2019</th><td class="editorial-cifra">40,1</td><td class="editorial-cifra">498</td></tr>
+      <tr><td>CEP</td><th scope="row">2021</th><td class="editorial-cifra">31,1</td><td class="editorial-cifra">246</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2006</th><td class="editorial-cifra">61,3</td><td class="editorial-cifra">472</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2007</th><td class="editorial-cifra">56,8</td><td class="editorial-cifra">453</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2008</th><td class="editorial-cifra">62,9</td><td class="editorial-cifra">465</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2009</th><td class="editorial-cifra">58,0</td><td class="editorial-cifra">490</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2010</th><td class="editorial-cifra">53,9</td><td class="editorial-cifra">453</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2011</th><td class="editorial-cifra">53,7</td><td class="editorial-cifra">489</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2012</th><td class="editorial-cifra">52,8</td><td class="editorial-cifra">464</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2013</th><td class="editorial-cifra">56,0</td><td class="editorial-cifra">453</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2014</th><td class="editorial-cifra">55,3</td><td class="editorial-cifra">422</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2015</th><td class="editorial-cifra">53,1</td><td class="editorial-cifra">433</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2016</th><td class="editorial-cifra">49,5</td><td class="editorial-cifra">467</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2017</th><td class="editorial-cifra">49,9</td><td class="editorial-cifra">374</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2018</th><td class="editorial-cifra">64,4</td><td class="editorial-cifra">376</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2019</th><td class="editorial-cifra">36,7</td><td class="editorial-cifra">431</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2021</th><td class="editorial-cifra">35,0</td><td class="editorial-cifra">387</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2022</th><td class="editorial-cifra">35,3</td><td class="editorial-cifra">340</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2023</th><td class="editorial-cifra">34,6</td><td class="editorial-cifra">247</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2024</th><td class="editorial-cifra">23,8</td><td class="editorial-cifra">235</td></tr>
+    </tbody>
+  </table>
+  </div>
+</details>
+```

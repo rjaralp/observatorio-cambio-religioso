@@ -1,0 +1,20 @@
+```{=html}
+<!-- Generado por scripts/06_tablas_editoriales.R. -->
+<details class="editorial-tabla">
+  <summary>Ver tabla por generación</summary>
+  <div class="editorial-tabla-contenedor" role="region" tabindex="0" aria-labelledby="tabla-composicion-generacional-titulo">
+  <table data-quarto-disable-processing="true">
+    <caption id="tabla-composicion-generacional-titulo">Estimaciones ponderadas por generación</caption>
+    <thead><tr><th scope="col">Encuesta</th><th scope="col">Año</th><th scope="col">Generación</th><th scope="col" class="editorial-cifra">Católica (%)</th><th scope="col" class="editorial-cifra">Otras afiliaciones (%)</th><th scope="col" class="editorial-cifra">Sin religión (%)</th><th scope="col" class="editorial-cifra">Casos válidos (n)</th></tr></thead>
+    <tbody>
+      <tr><td>CEP</td><td>2021</td><th scope="row">Silenciosa + Boomers</th><td class="editorial-cifra">64,6</td><td class="editorial-cifra">18,5</td><td class="editorial-cifra">16,9</td><td class="editorial-cifra">529</td></tr>
+      <tr><td>CEP</td><td>2021</td><th scope="row">Generación X</th><td class="editorial-cifra">51,2</td><td class="editorial-cifra">20,0</td><td class="editorial-cifra">28,8</td><td class="editorial-cifra">374</td></tr>
+      <tr><td>CEP</td><td>2021</td><th scope="row">Millennials + Generación Z</th><td class="editorial-cifra">36,8</td><td class="editorial-cifra">20,0</td><td class="editorial-cifra">43,2</td><td class="editorial-cifra">497</td></tr>
+      <tr><td>Bicentenario UC</td><td>2024</td><th scope="row">Silenciosa + Boomers</th><td class="editorial-cifra">58,7</td><td class="editorial-cifra">17,6</td><td class="editorial-cifra">23,7</td><td class="editorial-cifra">565</td></tr>
+      <tr><td>Bicentenario UC</td><td>2024</td><th scope="row">Generación X</th><td class="editorial-cifra">53,3</td><td class="editorial-cifra">16,0</td><td class="editorial-cifra">30,7</td><td class="editorial-cifra">423</td></tr>
+      <tr><td>Bicentenario UC</td><td>2024</td><th scope="row">Millennials + Generación Z</th><td class="editorial-cifra">29,2</td><td class="editorial-cifra">23,7</td><td class="editorial-cifra">47,1</td><td class="editorial-cifra">634</td></tr>
+    </tbody>
+  </table>
+  </div>
+</details>
+```

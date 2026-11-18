@@ -1,0 +1,84 @@
+---
+title: "Auditoría de las series de identificación religiosa"
+lang: es
+format:
+  html:
+    css: editoriales.css
+---
+
+La serie ponderada de identificación religiosa disponible en las bases del Observatorio llega a 2021 en CEP y a 2024 en Bicentenario UC. Los gráficos históricos publicados usan recuentos sin ponderar. Las nuevas historias y el explorador aplican los ponderadores de cada encuesta y usan la misma recodificación de las categorías religiosas. Para la comparación se conservan los años con estimaciones de ambas fuentes.
+
+## Cobertura y denominadores
+
+::: {.editorial-tabla-contenedor role="region" tabindex="0" aria-label="Cobertura y denominadores por encuesta"}
+
+| Encuesta | Años con la variable de identificación disponible | Respuestas válidas | Último año válido |
+|---|---|---:|---:|
+| CEP | 1995, 1998–2000, 2002–2019 y 2021 | 67.097 | 2021 (1.401) |
+| Bicentenario UC | 2006–2019 y 2021–2024 | 35.175 | 2024 (1.623) |
+
+:::
+
+Los registros CEP llegan de 1994 a 2025, con un vacío en 2020. `religion_1` carece de respuestas válidas en 1994, 1996, 1997, 2001 y 2022–2025. La base Bicentenario UC tampoco incluye 2020. La universidad sí realizó ese año una edición telefónica. Los 15 años en común son 2006–2019 y 2021. [Metodología Bicentenario UC 2021, p. 6](https://encuestabicentenario.uc.cl/content/uploads/2023/12/Encuesta-Bicentenario-2021-Metodologia.pdf#page=6)
+
+CEP identifica el año con `encuesta_a` y pondera con `pond` (etiquetado «BASE PONDERADA»). Bicentenario UC usa `ano` y `ponderador`. Todos los pesos de ambas bases son finitos y positivos. En CEP se combinan de uno a tres levantamientos con respuestas válidas por año, conservando los pesos de la base consolidada. Cada porcentaje divide la suma de pesos de la categoría por la suma de pesos de las respuestas válidas del mismo año, encuesta y grupo.
+
+`edad` es numérica en ambas bases. Los análisis por edad y generación requieren 18 años o más y edad válida. Trece respuestas CEP por lo demás elegibles carecen de una edad adulta registrada. En Bicentenario UC todas las edades están entre 18 y 98 años. `sexo` registra solo Hombre (1) y Mujer (2) en las dos bases. La brecha entre estos grupos usa esas etiquetas de encuesta.
+
+## Preguntas y recodificaciones
+
+CEP pregunta por la religión o iglesia a la que la persona pertenece o se siente más cercana. Bicentenario UC pregunta por la religión que profesa. Las series se basan en las variables principales `religion_1` y `religion_encuestado`, respectivamente. [Cuestionario CEP n.º 85, módulo sociodemográfico](https://static.cepchile.cl/uploads/cepchile/2021/09/Cuestionario-CEP-85.pdf#page=18)
+
+::: {.editorial-tabla-contenedor role="region" tabindex="0" aria-label="Recodificaciones de religión por encuesta"}
+
+| Categoría en la base limpia | CEP (`religion_1`, numérica con etiquetas) | Bicentenario UC (`religion_encuestado`, numérica etiquetada por `haven`) |
+|---|---|---|
+| Católica | 1, Católica | 1, Católica |
+| Evangélica | 2, Evangélica | 2, Evangélica y 3, Protestante |
+| Otras religiones | 3–8, denominaciones y otros credos. 13, otras iglesias y religiones cristianas | 4, Otra religión |
+| Sin religión | 9, Ninguna. 10, Ateo. 11, Agnóstico | 5, Ateo o agnóstico. 6, Ninguna religión |
+| Fuera del denominador | −9, No contesta (907). −8, No sabe (91). Ausentes (26.561) | Ausentes (220) |
+
+:::
+
+La limpieza CEP y el explorador incluyen el código 13 en «Otras religiones». El gráfico histórico de cohortes CEP vuelve a recodificar y lo excluye. Los 997 casos con código 13 aparecen en 1995, 1998–2000 y 2002–2003. En 2002 suman 520 de las 4.429 respuestas válidas. Si se excluyeran de un cálculo ponderado de ese año, el catolicismo pasaría de 70,84 % a 80,14 % por el cambio de denominador. El gráfico histórico de tendencia CEP y ambos gráficos históricos Bicentenario UC usan `religion_cat` de las bases limpias.
+
+Otro levantamiento CEP de 2008 recoge afiliación en `religion_1_b`, con códigos y alternativas distintos (1 Protestante, 2 Católica). Las variables `religion_1_issp_1` y `religion_1_issp_2` usan clasificaciones más detalladas, con cobertura parcial y solapamiento con `religion_1`. La serie editorial usa `religion_1` de forma consistente. Las alternativas identificadas aportan observaciones hasta 2008.
+
+Los gráficos históricos y el explorador pueden diferir aun cuando la recodificación sea idéntica. Sobre las mismas respuestas válidas, los cálculos originales con recuentos y los ponderados dan estos resultados en los últimos años disponibles.
+
+::: {.editorial-tabla-contenedor role="region" tabindex="0" aria-label="Estimaciones ponderadas y sin ponderar"}
+
+| Encuesta y año | Católica sin ponderar | Católica ponderada | Sin religión sin ponderar | Sin religión ponderada |
+|---|---:|---:|---:|---:|
+| CEP 2021 | 50,82 % | 48,16 % | 28,12 % | 32,21 % |
+| Bicentenario UC 2024 | 45,72 % | 42,45 % | 31,36 % | 37,33 % |
+
+:::
+
+## Grupos pequeños e incertidumbre
+
+El explorador publica porcentajes con al menos 30 observaciones sin ponderar en el grupo y en la categoría. Las historias también exigen al menos 30 observaciones en el complemento de cada categoría cuando se muestra un porcentaje por separado. Para las barras al 100 % se exige un mínimo de 30 en cada segmento. «Otras afiliaciones» reúne «Evangélica» y «Otras religiones».
+
+El año aproximado de nacimiento se calcula restando la edad al año de la encuesta. Las barras muestran Silenciosa y Boomers (1928–1964), Generación X (1965–1980) y Millennials y Generación Z (1981–2012). Su universo se limita a esos tres intervalos. Se reunieron las dos cohortes más jóvenes para sostener el mínimo de casos por segmento en la última ola CEP. Las diferencias entre cohortes y tramos etarios describen cortes transversales en fechas determinadas. Una variación agregada entre olas no permite saber qué personas cambiaron de respuesta.
+
+La comparación de edad utiliza los tramos 18–29, 30–44, 45–59 y 60 años o más. Los archivos consolidados no permiten reconstruir la varianza del diseño para ambos levantamientos. CEP 2021 dispone de `estrato` y de la zona urbana/rural, pero carece de un identificador verificable de manzana, su unidad primaria. Bicentenario UC 2024 tiene nombres de comuna, zona y tamaño de comuna. Su diseño selecciona parte de las comunas con probabilidad proporcional al tamaño e incluye forzosamente a las de mayor tamaño en la segunda etapa. Las manzanas se seleccionan después y los archivos no las identifican. Tampoco hay pesos replicados documentados. El gráfico publica estimaciones puntuales. [Ficha CEP 2021](https://www.cepchile.cl/encuesta/estudio-nacional-de-opinion-publica-n85-agosto-2021/) · [Metodología Bicentenario UC 2024, pp. 5–7](https://encuestabicentenario.uc.cl/content/uploads/2024/12/Encuesta-Bicentenario-2024-FINAL_metodologia.pdf#page=5)
+
+## Comparabilidad entre encuestas y olas
+
+Las estimaciones de cada encuesta usan su propio denominador y calendario de terreno. En 2021 CEP cubrió a personas de 18 años o más en zonas urbanas y rurales, salvo Isla de Pascua, Juan Fernández y la Antártica. Bicentenario UC 2021 cubrió a residentes adultos de viviendas particulares en zonas urbanas, con exclusiones de acceso. Bicentenario UC 2024 mantuvo esa definición de población y documentó cinco etapas de muestreo, frente a cuatro en 2021. Las diferencias de pregunta, universo, fechas y diseño limitan la comparación de los niveles. [Ficha CEP 2021](https://www.cepchile.cl/encuesta/estudio-nacional-de-opinion-publica-n85-agosto-2021/) · [Metodología Bicentenario UC 2021, pp. 4–8](https://encuestabicentenario.uc.cl/content/uploads/2023/12/Encuesta-Bicentenario-2021-Metodologia.pdf#page=4) · [Metodología Bicentenario UC 2024, pp. 3–7](https://encuestabicentenario.uc.cl/content/uploads/2024/12/Encuesta-Bicentenario-2024-FINAL_metodologia.pdf#page=3)
+
+En Bicentenario UC, la ficha de 2018 describe a los adultos de las comunas del país, con exclusiones de acceso y marco del Censo 2002. En 2019, los antecedentes metodológicos explicitan la población en viviendas particulares urbanas y un marco del Censo 2017. Los resultados de 2018 y 2019 se leen teniendo en cuenta ese cambio documentado de marco. [Metodología Bicentenario UC 2018, pp. 5–6](https://encuestabicentenario.uc.cl/content/uploads/2023/12/Encuesta-bicentenario-2018-Sitio-Web-Metodologia.pdf#page=2) · [Metodología Bicentenario UC 2019, pp. 3–4](https://encuestabicentenario.uc.cl/content/uploads/2023/12/EB-PORTADA-INTRO.pdf#page=3)
+
+## Variables para futuras historias
+
+::: {.editorial-tabla-contenedor role="region" tabindex="0" aria-label="Variables candidatas por encuesta"}
+
+| Tema | CEP | Bicentenario UC | Condición para construir una serie |
+|---|---|---|---|
+| Educación | `esc` (numérica, años exactos) aparece entre 1994 y 2019. `esc_nivel_1`, `esc_nivel_1_b` y `esc_nivel_1_c` son variables numéricas ordinales con distintas categorías de posgrado. | `educ` es numérica etiquetada con siete niveles y observaciones en todo el período disponible. El nivel 5 combina estudios técnicos completos con universitarios incompletos. `educ_enc` es una agrupación de texto. | Definir un corte que pueda reproducirse con las categorías originales de cada ola. La agrupación `educ_enc` por sí sola impide distinguir título universitario de estudios técnicos. |
+| Asistencia religiosa | `religion_2` (numérica) tiene ocho frecuencias y registros en 2002–2019 y 2021–2025. `religion_2_a` y `religion_2_a_2` tienen seis y aparecen en 1998, 2000 y 2002. El cuestionario de 2021 excluye ocasiones especiales. | `frecuencia_misa_enc` (numérica etiquetada) tiene cinco frecuencias. Pregunta por misa o servicios y excluye bautizos, matrimonios y funerales. Tiene observaciones en 2006–2019 y 2022–2024. | Validar el universo preguntado por ola y los saltos de cuestionario. La asistencia semanal o más frecuente admite una equivalencia de categorías que aún requiere esa verificación. |
+| Región | `region_1`, `region_2` y `region_3` son códigos numéricos con 13, 15 y 16 regiones según el período. | `region` es texto con códigos y valores vacíos. Por ejemplo, en 2014 no hay códigos regionales utilizables. `zona` agrupa áreas del país. | Armonizar límites o usar áreas territoriales estables, comprobar la cobertura por ola y evaluar el tamaño muestral y el diseño de cada dominio. |
+| Valores morales | `religion_14` (numérica, tres opciones sobre aborto) aparece en 1999, 2014, 2017 y 2022–2025. `religion_18` (cuatro opciones) aparece en 2018. | `op_aborto` (numérica etiquetada) tiene tres alternativas y carece de etiqueta con el enunciado en la base. `op_matr7` y `op_matr11` tienen cinco niveles de acuerdo sobre matrimonio y adopción de parejas del mismo sexo, con distinta cobertura temporal. | Revisar preguntas y alternativas por ola. La opción sobre las primeras semanas de gestación en CEP 2018 carece de un equivalente directo en las versiones de tres opciones. |
+
+:::

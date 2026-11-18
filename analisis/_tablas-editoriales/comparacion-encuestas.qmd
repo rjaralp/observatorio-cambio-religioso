@@ -1,0 +1,44 @@
+```{=html}
+<!-- Generado por scripts/06_tablas_editoriales.R. -->
+<details class="editorial-tabla">
+  <summary>Ver tabla de los años comunes</summary>
+  <div class="editorial-tabla-contenedor" role="region" tabindex="0" aria-labelledby="tabla-comparacion-encuestas-titulo">
+  <table data-quarto-disable-processing="true">
+    <caption id="tabla-comparacion-encuestas-titulo">Estimaciones ponderadas de los años comunes</caption>
+    <thead><tr><th scope="col">Encuesta</th><th scope="col">Año</th><th scope="col" class="editorial-cifra">Católica (%)</th><th scope="col" class="editorial-cifra">Sin religión (%)</th><th scope="col" class="editorial-cifra">Casos válidos (n)</th></tr></thead>
+    <tbody>
+      <tr><td>CEP</td><th scope="row">2006</th><td class="editorial-cifra">66,5</td><td class="editorial-cifra">13,4</td><td class="editorial-cifra">2.969</td></tr>
+      <tr><td>CEP</td><th scope="row">2007</th><td class="editorial-cifra">69,1</td><td class="editorial-cifra">11,2</td><td class="editorial-cifra">2.962</td></tr>
+      <tr><td>CEP</td><th scope="row">2008</th><td class="editorial-cifra">68,6</td><td class="editorial-cifra">12,3</td><td class="editorial-cifra">1.493</td></tr>
+      <tr><td>CEP</td><th scope="row">2009</th><td class="editorial-cifra">66,9</td><td class="editorial-cifra">11,7</td><td class="editorial-cifra">4.473</td></tr>
+      <tr><td>CEP</td><th scope="row">2010</th><td class="editorial-cifra">67,0</td><td class="editorial-cifra">13,1</td><td class="editorial-cifra">2.910</td></tr>
+      <tr><td>CEP</td><th scope="row">2011</th><td class="editorial-cifra">65,9</td><td class="editorial-cifra">14,2</td><td class="editorial-cifra">3.101</td></tr>
+      <tr><td>CEP</td><th scope="row">2012</th><td class="editorial-cifra">65,9</td><td class="editorial-cifra">14,6</td><td class="editorial-cifra">4.524</td></tr>
+      <tr><td>CEP</td><th scope="row">2013</th><td class="editorial-cifra">62,3</td><td class="editorial-cifra">17,9</td><td class="editorial-cifra">2.891</td></tr>
+      <tr><td>CEP</td><th scope="row">2014</th><td class="editorial-cifra">60,5</td><td class="editorial-cifra">20,3</td><td class="editorial-cifra">2.837</td></tr>
+      <tr><td>CEP</td><th scope="row">2015</th><td class="editorial-cifra">58,3</td><td class="editorial-cifra">20,8</td><td class="editorial-cifra">4.189</td></tr>
+      <tr><td>CEP</td><th scope="row">2016</th><td class="editorial-cifra">58,8</td><td class="editorial-cifra">22,6</td><td class="editorial-cifra">2.771</td></tr>
+      <tr><td>CEP</td><th scope="row">2017</th><td class="editorial-cifra">59,6</td><td class="editorial-cifra">21,3</td><td class="editorial-cifra">4.226</td></tr>
+      <tr><td>CEP</td><th scope="row">2018</th><td class="editorial-cifra">56,7</td><td class="editorial-cifra">21,6</td><td class="editorial-cifra">1.368</td></tr>
+      <tr><td>CEP</td><th scope="row">2019</th><td class="editorial-cifra">51,9</td><td class="editorial-cifra">29,4</td><td class="editorial-cifra">2.789</td></tr>
+      <tr><td>CEP</td><th scope="row">2021</th><td class="editorial-cifra">48,2</td><td class="editorial-cifra">32,2</td><td class="editorial-cifra">1.401</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2006</th><td class="editorial-cifra">69,8</td><td class="editorial-cifra">11,8</td><td class="editorial-cifra">2.037</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2007</th><td class="editorial-cifra">65,6</td><td class="editorial-cifra">13,7</td><td class="editorial-cifra">2.033</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2008</th><td class="editorial-cifra">67,2</td><td class="editorial-cifra">14,8</td><td class="editorial-cifra">2.015</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2009</th><td class="editorial-cifra">66,8</td><td class="editorial-cifra">13,3</td><td class="editorial-cifra">2.007</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2010</th><td class="editorial-cifra">63,6</td><td class="editorial-cifra">17,4</td><td class="editorial-cifra">2.006</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2011</th><td class="editorial-cifra">62,7</td><td class="editorial-cifra">17,9</td><td class="editorial-cifra">2.001</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2012</th><td class="editorial-cifra">58,7</td><td class="editorial-cifra">19,1</td><td class="editorial-cifra">2.009</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2013</th><td class="editorial-cifra">61,7</td><td class="editorial-cifra">17,8</td><td class="editorial-cifra">1.989</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2014</th><td class="editorial-cifra">59,1</td><td class="editorial-cifra">21,5</td><td class="editorial-cifra">2.010</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2015</th><td class="editorial-cifra">60,9</td><td class="editorial-cifra">20,6</td><td class="editorial-cifra">2.008</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2016</th><td class="editorial-cifra">58,6</td><td class="editorial-cifra">20,6</td><td class="editorial-cifra">2.004</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2017</th><td class="editorial-cifra">59,7</td><td class="editorial-cifra">19,3</td><td class="editorial-cifra">1.988</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2018</th><td class="editorial-cifra">62,2</td><td class="editorial-cifra">18,7</td><td class="editorial-cifra">1.976</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2019</th><td class="editorial-cifra">45,0</td><td class="editorial-cifra">32,1</td><td class="editorial-cifra">2.036</td></tr>
+      <tr><td>Bicentenario UC</td><th scope="row">2021</th><td class="editorial-cifra">42,8</td><td class="editorial-cifra">37,3</td><td class="editorial-cifra">1.984</td></tr>
+    </tbody>
+  </table>
+  </div>
+</details>
+```
