@@ -11,9 +11,9 @@ library(dplyr)
 library(ggplot2)
 library(scales)
 
-setwd("C:/Users/Dell/Desktop/observatorio-cambio-religioso")
+here::i_am("scripts/02_graficos_bicentenario.R")
 
-bic <- readRDS("C:/Users/Dell/Desktop/observatorio-cambio-religioso/datos/processed/bicentenario_clean.rds")
+bic <- readRDS(here::here("datos", "processed", "bicentenario_clean.rds"))
 
 religion_ts_bic <- bic %>%
   filter(!is.na(religion_cat), !is.na(ano)) %>%
@@ -24,7 +24,7 @@ religion_ts_bic <- bic %>%
 
 religion_ts_bic
 
-ggplot(religion_ts_bic, aes(x = ano, y = prop, color = religion_cat)) +
+grafico_serie_bic <- ggplot(religion_ts_bic, aes(x = ano, y = prop, color = religion_cat)) +
   geom_line(linewidth = 1.2) +
   scale_y_continuous(labels = percent) +
   labs(
@@ -36,7 +36,17 @@ ggplot(religion_ts_bic, aes(x = ano, y = prop, color = religion_cat)) +
   ) +
   theme_minimal()
 
+if (interactive()) {
+  print(grafico_serie_bic)
+}
 
+ggsave(
+  filename = here::here("images", "Bic1.png"),
+  plot = grafico_serie_bic,
+  width = 7,
+  height = 5,
+  dpi = 192
+)
 
 # Grafico 2: Curva de religiosidad por cohorte
 
@@ -97,10 +107,12 @@ grafico_cohortes_bic <- ggplot(bic_cohortes, aes(x = ano, y = pct, color = relig
     panel.grid.major = element_line(color = "grey80")
   )
 
-grafico_cohortes_bic
+if (interactive()) {
+  print(grafico_cohortes_bic)
+}
 
 ggsave(
-  filename = "images/bicentenario_cohortes_religion.png",
+  filename = here::here("images", "bicentenario_cohortes_religion.png"),
   plot = grafico_cohortes_bic,
   width = 12,
   height = 8,

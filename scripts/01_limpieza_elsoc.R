@@ -9,8 +9,10 @@ rm(list = ls())
 library(dplyr)
 library(haven)
 
+here::i_am("scripts/01_limpieza_elsoc.R")
+
 # 1) Cargar base raw
-elsoc_raw <- read_dta("datos/raw/ELSOC_Long_2016_2023.dta")
+elsoc_raw <- read_dta(here::here("datos", "raw", "ELSOC_Long_2016_2023.dta"))
 
 # 2) Limpiar variables clave
 elsoc_clean <- elsoc_raw %>%
@@ -34,5 +36,5 @@ elsoc_clean <- elsoc_raw %>%
     )
   )
 # 3) Guardar processed
-dir.create("datos/processed", recursive = TRUE, showWarnings = FALSE)
-saveRDS(elsoc_clean, "datos/processed/elsoc_clean.rds")
+dir.create(here::here("datos", "processed"), recursive = TRUE, showWarnings = FALSE)
+saveRDS(elsoc_clean, here::here("datos", "processed", "elsoc_clean.rds"))
