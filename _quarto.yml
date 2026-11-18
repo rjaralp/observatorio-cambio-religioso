@@ -14,7 +14,10 @@ website:
   title: "Observatorio del Cambio Religioso en Chile"
   site-url: "https://rjaralp.github.io/observatorio-cambio-religioso/"
   navbar:
-    title: "OCRC"
+    background: "#7b0000"
+    title: false
+    logo: images/logo1-navbar.webp
+    logo-alt: "Observatorio del Cambio Religioso en Chile"
     left:
       - text: Inicio
         href: index.qmd
