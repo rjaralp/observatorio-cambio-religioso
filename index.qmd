@@ -1,6 +1,5 @@
 ---
 title: "Observatorio del Cambio Religioso en Chile"
-title-block-style: none
 page-layout: full
 toc: false
 ---
