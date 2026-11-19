@@ -376,6 +376,37 @@ body:has(.ocrc-home) #title-block-header {
   font-size: clamp(1.7rem, 2.4vw, 2.35rem);
 }
 
+.home-profile {
+  padding-block: clamp(1.75rem, 4vw, 3rem);
+  border-top: 1px solid var(--ocrc-border);
+}
+
+.home-profile-copy {
+  max-width: 42rem;
+}
+
+.home-profile h2 {
+  margin: 0 0 .35rem;
+  padding: 0;
+  border: 0;
+  font-size: clamp(1.8rem, 3vw, 2.7rem);
+  letter-spacing: -.035em;
+}
+
+.home-profile p {
+  margin: 0 0 .65rem;
+  color: var(--ocrc-muted);
+}
+
+.home-profile .home-profile-role {
+  color: var(--ocrc-brand);
+  font-weight: 650;
+}
+
+.home-profile p:last-child {
+  margin-bottom: 0;
+}
+
 @media (max-width: 767px) {
   .home-hero,
   .home-cards {
