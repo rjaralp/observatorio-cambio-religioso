@@ -52,7 +52,7 @@ toc: false
   <section class="home-profile" aria-labelledby="home-profile-name">
     <img class="home-profile-photo" src="images/86087.jpg" alt="Retrato de Ramón Jara López" width="384" height="384" loading="lazy" decoding="async">
     <div class="home-profile-copy">
-      <h2 id="home-profile-name">Ramón Jara López</h2>
+      <h2 id="home-profile-name" class="no-anchor">Ramón Jara López</h2>
       <p class="home-profile-role">Director del Observatorio e investigador del Instituto de Estudios de la Sociedad (IES)</p>
       <p>Sociólogo y magíster en Sociología por la Pontificia Universidad Católica de Chile. Sus intereses abarcan el estudio de la religión, la sociología de la cultura y los métodos de investigación social.</p>
       <p>Escribe columnas sobre temas de contingencia y participa ocasionalmente en radio.</p>
