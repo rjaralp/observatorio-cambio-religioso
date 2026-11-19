@@ -50,6 +50,7 @@ toc: false
   </section>
 
   <section class="home-profile" aria-labelledby="home-profile-name">
+    <img class="home-profile-photo" src="images/86087.jpg" alt="Retrato de Ramón Jara López" width="384" height="384" loading="lazy" decoding="async">
     <div class="home-profile-copy">
       <h2 id="home-profile-name">Ramón Jara López</h2>
       <p class="home-profile-role">Director del Observatorio e investigador del Instituto de Estudios de la Sociedad (IES)</p>
