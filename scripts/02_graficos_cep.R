@@ -12,9 +12,9 @@ library(dplyr)
 library(ggplot2)
 library(scales)
 
-setwd("C:/Users/Dell/Desktop/observatorio-cambio-religioso")
+here::i_am("scripts/02_graficos_cep.R")
 
-cep <- readRDS("datos/processed/cep_clean.rds")
+cep <- readRDS(here::here("datos", "processed", "cep_clean.rds"))
 
 religion_ts <- cep %>%
   filter(!is.na(religion_cat), !is.na(encuesta_a)) %>%
@@ -25,7 +25,7 @@ religion_ts <- cep %>%
 
 religion_ts
 
-ggplot(religion_ts, aes(x = encuesta_a, y = prop, color = religion_cat)) +
+grafico_serie_cep <- ggplot(religion_ts, aes(x = encuesta_a, y = prop, color = religion_cat)) +
   geom_line(linewidth = 1.2) +
   scale_y_continuous(labels = percent) +
   labs(
@@ -37,6 +37,17 @@ ggplot(religion_ts, aes(x = encuesta_a, y = prop, color = religion_cat)) +
   ) +
   theme_minimal()
 
+if (interactive()) {
+  print(grafico_serie_cep)
+}
+
+ggsave(
+  filename = here::here("images", "Cep1.png"),
+  plot = grafico_serie_cep,
+  width = 7,
+  height = 5,
+  dpi = 192
+)
 
 # Grafico 2: Curva de religiosidad por cohorte
 
@@ -104,10 +115,12 @@ grafico_cohortes_cep <- ggplot(cep_cohortes, aes(x = encuesta_a, y = pct, color 
     panel.grid.major = element_line(color = "grey80")
   )
 
-grafico_cohortes_cep
+if (interactive()) {
+  print(grafico_cohortes_cep)
+}
 
 ggsave(
-  filename = "C:/Users/Dell/Desktop/observatorio-cambio-religioso/images/cep_cohortes_religion.png",
+  filename = here::here("images", "cep_cohortes_religion.png"),
   plot = grafico_cohortes_cep,
   width = 12,
   height = 8,

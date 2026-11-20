@@ -11,8 +11,10 @@ library(dplyr)
 library(janitor)
 library(stringr)
 
+here::i_am("scripts/01_limpieza_bicentenario.R")
+
 # Importar base
-bic <- read_dta("datos/raw/bicentenario_limpio.dta")
+bic <- read_dta(here::here("datos", "raw", "bicentenario_limpio.dta"))
 
 # Revisar estructura inicial
 glimpse(bic)
@@ -30,5 +32,5 @@ bic <- bic %>%
     )
   )
 
-saveRDS(bic, "datos/processed/bicentenario_clean.rds")
+saveRDS(bic, here::here("datos", "processed", "bicentenario_clean.rds"))
 

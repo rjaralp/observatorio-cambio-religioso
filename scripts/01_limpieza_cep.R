@@ -8,7 +8,9 @@
 
 library(dplyr)
 
-cep_raw <- readRDS("datos/raw/CEP_consolidada.rds")
+here::i_am("scripts/01_limpieza_cep.R")
+
+cep_raw <- readRDS(here::here("datos", "raw", "CEP_consolidada.rds"))
 
 cep_clean <- cep_raw %>%
   mutate(
@@ -26,5 +28,5 @@ cep_clean <- cep_raw %>%
     )
   )
 
-dir.create("datos/processed", recursive = TRUE, showWarnings = FALSE)
-saveRDS(cep_clean, "datos/processed/cep_clean.rds")
+dir.create(here::here("datos", "processed"), recursive = TRUE, showWarnings = FALSE)
+saveRDS(cep_clean, here::here("datos", "processed", "cep_clean.rds"))

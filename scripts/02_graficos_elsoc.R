@@ -13,9 +13,9 @@ library(ggplot2)
 library(scales)
 library(tidyr)
 
-setwd("C:/Users/Dell/Desktop/observatorio-cambio-religioso")
+here::i_am("scripts/02_graficos_elsoc.R")
 
-elsoc <- readRDS("C:/Users/Dell/Desktop/observatorio-cambio-religioso/datos/processed/elsoc_clean.rds")
+elsoc <- readRDS(here::here("datos", "processed", "elsoc_clean.rds"))
 
 elsoc_ts <- elsoc %>%
   filter(!is.na(religion_cat), !is.na(ola)) %>%
@@ -26,7 +26,7 @@ elsoc_ts <- elsoc %>%
 
 elsoc_ts
 
-ggplot(elsoc_ts, aes(x = ola, y = prop, color = religion_cat)) +
+grafico_serie_elsoc <- ggplot(elsoc_ts, aes(x = ola, y = prop, color = religion_cat)) +
   geom_line(linewidth = 1.2) +
   scale_y_continuous(labels = scales::percent) +
   labs(
@@ -37,6 +37,18 @@ ggplot(elsoc_ts, aes(x = ola, y = prop, color = religion_cat)) +
     caption = "ELSOC. Observatorio del Cambio Religioso en Chile (OCRC)."
   ) +
   theme_minimal()
+
+if (interactive()) {
+  print(grafico_serie_elsoc)
+}
+
+ggsave(
+  filename = here::here("images", "elsoc1.png"),
+  plot = grafico_serie_elsoc,
+  width = 7,
+  height = 5,
+  dpi = 192
+)
 
 # Grafico 2: Curva de religiosidad por cohorte
 
@@ -128,10 +140,12 @@ grafico_cohortes_elsoc <- ggplot(
     panel.grid.major = element_line(color = "grey80")
   )
 
-grafico_cohortes_elsoc
+if (interactive()) {
+  print(grafico_cohortes_elsoc)
+}
 
 ggsave(
-  filename = "images/elsoc_cohortes_religion.png",
+  filename = here::here("images", "elsoc_cohortes_religion.png"),
   plot = grafico_cohortes_elsoc,
   width = 12,
   height = 8,
